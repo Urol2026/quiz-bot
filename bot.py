@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("8863972910:AAF5RfBxpMdYcU7oozStVih8fDAVUJ-e7Lg")
+BOT_TOKEN = "8863972910:AAF5RfBxpMdYcU7oozStVih8fDAVUJ-e7Lg"
 QUIZ_LENGTH = 20
 TIME_LIMIT = 15
 
