@@ -61,25 +61,7 @@ async def send_question(update, context):
             resize_keyboard=True
         )
     )
-async def timeout_task(update, context):
-    await asyncio.sleep(TIME_PER_QUESTION)
 
-    user = users.get(update.effective_user.id)
-
-    if not user or user["answered"]:
-        return
-
-    q = user["questions"][user["index"]]
-
-    await context.bot.send_message(
-        chat_id=update.effective_chat.id,
-        text=f"⏰ Vaqt tugadi!\n✅ To'g'ri javob: {q['answer']}"
-    )
-
-    user["answered"] = True
-    user["index"] += 1
-
-    await send_question(update, context)
 
 async def answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = users.get(update.effective_user.id)
