@@ -55,12 +55,12 @@ async def send_question(update, context):
 
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
-        text=f"❓ {q['question']}",
-        reply_markup=ReplyKeyboardMarkup(keyboard, resize_keyboard=True)
+        text=f"❓ Savol {user['index'] + 1}\n\n{q['question']}",
+        reply_markup=ReplyKeyboardMarkup(
+            keyboard,
+            resize_keyboard=True
+        )
     )
-
-    asyncio.create_task(timeout_task(update, context))
-
 async def timeout_task(update, context):
     await asyncio.sleep(TIME_PER_QUESTION)
 
