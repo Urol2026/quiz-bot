@@ -14,7 +14,7 @@ from telegram.ext import (
 )
 
 # ── SOZLAMALAR ─────────────────────────────────────────────────────────────────
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"   # <-- o'z tokeningizni kiriting
+BOT_TOKEN = "8863972910:AAHA4faZMEJXdRo34q1rJezjgY1xbZVwgTE"   # <-- o'z tokeningizni kiriting
 QUESTIONS_FILE = "questions.json"
 QUIZ_LENGTH = 10   # Har bir sessiyada nechta savol
 # ──────────────────────────────────────────────────────────────────────────────
