@@ -87,11 +87,10 @@ async def answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not user:
         return
 
-    if user["answered"]:
+    if user["index"] >= len(user["questions"]):
         return
 
     q = user["questions"][user["index"]]
-    user["answered"] = True
 
     if update.message.text == q["answer"]:
         user["score"] += 1
