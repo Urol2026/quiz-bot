@@ -51,17 +51,20 @@ async def send_question(update, context):
     options = q["options"][:]
     random.shuffle(options)
 
-    keyboard = [[x] for x in options]
+    keyboard = [[opt] for opt in options]
 
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
-        text=f"❓ Savol {user['index'] + 1}\n\n{q['question']}",
+        text=(
+            f"❓ Savol {user['index'] + 1}\n\n"
+            f"{q['question']}"
+        ),
         reply_markup=ReplyKeyboardMarkup(
             keyboard,
-            resize_keyboard=True
+            resize_keyboard=True,
+            one_time_keyboard=True
         )
     )
-
 
 async def answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = users.get(update.effective_user.id)
