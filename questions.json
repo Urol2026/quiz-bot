@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Lexicology is a branch of?",
+    "options": [
+      "Linguistics",
+      "Math",
+      "Physics",
+      "Biology"
+    ],
+    "answer": "Linguistics"
+  },
+  {
+    "question": "What is synonym?",
+    "options": [
+      "Similar meaning word",
+      "Opposite word",
+      "Verb",
+      "Sentence"
+    ],
+    "answer": "Similar meaning word"
+  },
+  {
+    "question": "What is antonym?",
+    "options": [
+      "Opposite meaning word",
+      "Noun",
+      "Adjective",
+      "Text"
+    ],
+    "answer": "Opposite meaning word"
+  }
+]
