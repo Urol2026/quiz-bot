@@ -1,32 +1,5261 @@
 [
   {
-    "question": "Lexicology is a branch of?",
+    "q": "The science of Lexicology is a branch of ….",
     "options": [
       "Linguistics",
-      "Math",
-      "Physics",
-      "Biology"
+      "Grammar",
+      "Phonetics",
+      "Stylistics"
     ],
-    "answer": "Linguistics"
+    "correct": "Linguistics"
   },
   {
-    "question": "What is synonym?",
+    "q": "Comparative Lexicology deals with ...",
     "options": [
-      "Similar meaning word",
-      "Opposite word",
-      "Verb",
-      "Sentence"
+      "The vocabulary of  two or more languages",
+      "The vocabulary of a  given language",
+      "The vocabulary of the borrowed language",
+      "The vocabulary common to all languages"
     ],
-    "answer": "Similar meaning word"
+    "correct": "The vocabulary of  two or more languages"
   },
   {
-    "question": "What is antonym?",
+    "q": "What branch of Lexicology deals with the study of meaning and semantic groupings of words?",
     "options": [
-      "Opposite meaning word",
-      "Noun",
-      "Adjective",
-      "Text"
+      "Semasiology",
+      "Word-building",
+      "Lexicography",
+      "Etymology"
     ],
-    "answer": "Opposite meaning word"
+    "correct": "Semasiology"
+  },
+  {
+    "q": "What division of Lexicology deals with the theory of compiling dictionaries?",
+    "options": [
+      "Lexicography",
+      "Word-building",
+      "Phraseology",
+      "Word-structure"
+    ],
+    "correct": "Lexicography"
+  },
+  {
+    "q": "What branch of lexicology deals with the study of the native and borrowed words?",
+    "options": [
+      "Etymology",
+      "Word-building",
+      "Phraseology",
+      "Word-structure"
+    ],
+    "correct": "Etymology"
+  },
+  {
+    "q": "What do we understand as a lexical unit?",
+    "options": [
+      "A language element having a stable sound form and a stable meaning",
+      "A language phenomenon of lexicalisation",
+      "A language element having a separate meaning",
+      "A set of words united by a similar meaning"
+    ],
+    "correct": "A language element having a stable sound form and a stable meaning"
+  },
+  {
+    "q": "Which language element can be qualified as a lexical unit?",
+    "options": [
+      "Lexeme",
+      "Phoneme",
+      "Syntaxeme",
+      "Sememe"
+    ],
+    "correct": "Lexeme"
+  },
+  {
+    "q": "Which of the following language elements are studied by Lexicology?",
+    "options": [
+      "Morphemes,  words, set phrases",
+      "Lexemes, sounds, set phrases",
+      "Inflexions,  morphemes, sentences",
+      "Words, phonemes, synonyms"
+    ],
+    "correct": "Morphemes,  words, set phrases"
+  },
+  {
+    "q": "What branch of Lexicology deals with the theory of set expressions?",
+    "options": [
+      "Phraseology",
+      "Word-structure",
+      "Lexicography",
+      "Word-building"
+    ],
+    "correct": "Phraseology"
+  },
+  {
+    "q": "The method of linguistic analysis based on the historical approach is called…",
+    "options": [
+      "Diachronic",
+      "Synchronic",
+      "Descriptive",
+      "Comparative"
+    ],
+    "correct": "Diachronic"
+  },
+  {
+    "q": "What is the subject matter of Lexicography?",
+    "options": [
+      "Problems and principles  of compiling dictionaries",
+      "Problems and principles of semantic change",
+      "Problems and principles of the word structure analysis",
+      "Problems and principles of phonetic analysis"
+    ],
+    "correct": "Problems and principles  of compiling dictionaries"
+  },
+  {
+    "q": "The two basic types of dictionaries are…",
+    "options": [
+      "Linguistic and encyclopedic",
+      "Linguistic and grammatic",
+      "Linguistic and phonetic",
+      "Linguistic and extralinguistic"
+    ],
+    "correct": "Linguistic and encyclopedic"
+  },
+  {
+    "q": "The first academic English Dictionary was published by Samuel Johnson in…",
+    "options": [
+      "1755",
+      "1758",
+      "1735",
+      "1685"
+    ],
+    "correct": "1755"
+  },
+  {
+    "q": "The English-Russian Phraseological Dictionary by A. Kunin is …",
+    "options": [
+      "Linguistic, translation and specialized",
+      "Translation, multilingual and etymological",
+      "Linguistic, translation and general",
+      "Encyclopedic, explanatory and specialized"
+    ],
+    "correct": "Linguistic, translation and specialized"
+  },
+  {
+    "q": "Which dictionary is called “a thing book”?",
+    "options": [
+      "Encyclopedic",
+      "Linguistic",
+      "Etymological",
+      "Special"
+    ],
+    "correct": "Encyclopedic"
+  },
+  {
+    "q": "A dictionary having vocabulary of two or more languages is called…",
+    "options": [
+      "Translation",
+      "Explanatory",
+      "Encyclopedic",
+      "Etymological"
+    ],
+    "correct": "Translation"
+  },
+  {
+    "q": "What do we call a part in the dictionary which describes the meaning of a word?",
+    "options": [
+      "An entry",
+      "A meaning",
+      "A description",
+      "An explanation"
+    ],
+    "correct": "An entry"
+  },
+  {
+    "q": "What do we call each meaning of a polysemantic word described in the dictionary entry?",
+    "options": [
+      "A lexico-semantic variant",
+      "A semantic variant",
+      "A lexical variant",
+      "A  new variant"
+    ],
+    "correct": "A lexico-semantic variant"
+  },
+  {
+    "q": "Analyzing the morphemic structure we divide a word into …",
+    "options": [
+      "Morphemes",
+      "Phonemes",
+      "Sememes",
+      "Syllables"
+    ],
+    "correct": "Morphemes"
+  },
+  {
+    "q": "The principle of morphological analysis is based on…",
+    "options": [
+      "Ultimate constituents",
+      "Immediate constituents",
+      "Semantic constituents",
+      "Phonetic  constituents"
+    ],
+    "correct": "Ultimate constituents"
+  },
+  {
+    "q": "The smallest indivisible two-facet lexical unit is called…",
+    "options": [
+      "A morpheme",
+      "A phoneme",
+      "A lexeme",
+      "A phraseme"
+    ],
+    "correct": "A morpheme"
+  },
+  {
+    "q": "What is the semantic nucleus of the word?",
+    "options": [
+      "Root morpheme",
+      "Suffixal morpheme",
+      "Prefixal morpheme",
+      "Inflectional morpheme"
+    ],
+    "correct": "Root morpheme"
+  },
+  {
+    "q": "A derived stem consists of …",
+    "options": [
+      "One root morpheme plus one or more affixal morphemes",
+      "Two root morphemes  and two  affixal  morphemes",
+      "One root morpheme",
+      "Two root morpheme plus one or more affixal  morphemes"
+    ],
+    "correct": "One root morpheme plus one or more affixal morphemes"
+  },
+  {
+    "q": "\"Stem + Stem\" is the word-formation pattern of ...",
+    "options": [
+      "Composition",
+      "Conversion",
+      "Suffixation",
+      "Prefixation"
+    ],
+    "correct": "Composition"
+  },
+  {
+    "q": "Which of the following words has a simple stem?",
+    "options": [
+      "Receive",
+      "Icy",
+      "Teacher",
+      "Reread"
+    ],
+    "correct": "Receive"
+  },
+  {
+    "q": "Which of the following words has a compound stem if analysed diachronically?",
+    "options": [
+      "Lord",
+      "Lawn",
+      "Law",
+      "Lawful"
+    ],
+    "correct": "Lord"
+  },
+  {
+    "q": "Which of the following words has a derived stem?",
+    "options": [
+      "Depose",
+      "Deduce",
+      "Divide",
+      "Deceive"
+    ],
+    "correct": "Depose"
+  },
+  {
+    "q": "If a stem has two root morphemes and a derivational morpheme it is called…",
+    "options": [
+      "Compound-derived",
+      "Derived",
+      "Compound",
+      "Simple"
+    ],
+    "correct": "Compound-derived"
+  },
+  {
+    "q": "The morphemes which are added to roots to form new words are called …",
+    "options": [
+      "Derivational morphemes",
+      "Inflexional morphemes",
+      "Free morphemes",
+      "Root morphemes"
+    ],
+    "correct": "Derivational morphemes"
+  },
+  {
+    "q": "The basic semantic and structural classification of morphemes lies  in  distinguishing…",
+    "options": [
+      "Root and non-root morphemes",
+      "Root and stem morphemes",
+      "Lexical and root morphemes",
+      "Morphemes and exemem"
+    ],
+    "correct": "Root and non-root morphemes"
+  },
+  {
+    "q": "The morpheme  has individual lexical meaning is called …",
+    "options": [
+      "Root",
+      "inflection",
+      "Bound",
+      "Affix"
+    ],
+    "correct": "Root"
+  },
+  {
+    "q": "The morpheme which carries only grammatical meaning is…",
+    "options": [
+      "Inflection",
+      "Affix",
+      "Root",
+      "Prefix"
+    ],
+    "correct": "Inflection"
+  },
+  {
+    "q": "The  Ultimate constituents are morphemes which are further …",
+    "options": [
+      "ndivisible",
+      "Divisible",
+      "Readable",
+      "Breakable"
+    ],
+    "correct": "ndivisible"
+  },
+  {
+    "q": "A simple stem is the one which is …",
+    "options": [
+      "Identical with the root",
+      "Identical with an affix",
+      "Identical with the suffix",
+      "Identical with the prefix"
+    ],
+    "correct": "Identical with the root"
+  },
+  {
+    "q": "The word ‘letter-writer’ consists of ..",
+    "options": [
+      "One simple and one derived  stem",
+      "One derived and one simple stem",
+      "Two  simple stems",
+      "One derived stem"
+    ],
+    "correct": "One simple and one derived  stem"
+  },
+  {
+    "q": "A paradigm is a system of  …",
+    "options": [
+      "All forms of one word",
+      "All endings of one word",
+      "All affixes of one word",
+      "All syllables of one word"
+    ],
+    "correct": "All forms of one word"
+  },
+  {
+    "q": "How many morphemes can be distinguished in the word  ‘unfriendliness’",
+    "options": [
+      "Four",
+      "Five",
+      "Three",
+      "Two"
+    ],
+    "correct": "Four"
+  },
+  {
+    "q": ". What does word-formation study?",
+    "options": [
+      "Ways and patterns for creating words",
+      "Ways and patterns for change of meaning",
+      "Ways and principles of making dictionaries",
+      "Ways and patterns of making sentences"
+    ],
+    "correct": "Ways and patterns for creating words"
+  },
+  {
+    "q": "Affixation includes…",
+    "options": [
+      "Prefixation and  suffixation",
+      "Prefixation and borrowing",
+      "Suffixation and shortening",
+      "Lexicalization and blending"
+    ],
+    "correct": "Prefixation and  suffixation"
+  },
+  {
+    "q": "Productive types of word formation are those which…",
+    "options": [
+      "Are active in creating new words",
+      "Are not active in creating new words",
+      "Are active in borrowing",
+      "Are active in forming blendings"
+    ],
+    "correct": "Are active in creating new words"
+  },
+  {
+    "q": "Newly coined words or phrases are called …",
+    "options": [
+      "Neologisms",
+      "Archaisms",
+      "Slang words",
+      "Professionalisms"
+    ],
+    "correct": "Neologisms"
+  },
+  {
+    "q": "Which types of word formation are called “productive”?",
+    "options": [
+      "Those which are used in forming neologisms",
+      "Those which are not used in forming neologisms",
+      "Those which are diachronic",
+      "Those which are synchronic"
+    ],
+    "correct": "Those which are used in forming neologisms"
+  },
+  {
+    "q": "What are productive types of word formation?",
+    "options": [
+      "Affixation, compounding, conversion and shortening",
+      "Affixation, prefixation conversion and shortening",
+      "Affixation, compounding, blending and shortening",
+      "Affixation, back-formation and shortening"
+    ],
+    "correct": "Affixation, compounding, conversion and shortening"
+  },
+  {
+    "q": "The type of word formation equally relevant for changing  grammatical  forms of a word …",
+    "options": [
+      "Sound gradation",
+      "Stress interchange",
+      "Backformation",
+      "Blending"
+    ],
+    "correct": "Sound gradation"
+  },
+  {
+    "q": "Synchronic approach to word formation reflects …",
+    "options": [
+      "Current state of the language",
+      "Historical state of the language",
+      "Past state of the language",
+      "Etymological state of the language"
+    ],
+    "correct": "Current state of the language"
+  },
+  {
+    "q": "Frequency of word formation  means is…",
+    "options": [
+      "A quantitative characteristics",
+      "A qualitative characteristics",
+      "Semantic characteristics",
+      "Formal characteristics"
+    ],
+    "correct": "A quantitative characteristics"
+  },
+  {
+    "q": "Besides formalized ways of word formation, the vocabulary is  enlarged through…",
+    "options": [
+      "Borrowing and semantic derivation",
+      "Borrowing and affixation",
+      "Borrowing and compounding",
+      "Semantic derivation and  affixation"
+    ],
+    "correct": "Borrowing and semantic derivation"
+  },
+  {
+    "q": "According to the degree of productivity the word formation means are classified into…",
+    "options": [
+      "Productive, semi-productive and non-productive",
+      "Productive and non-productive",
+      "Non-productive  and  borrowed",
+      "Productive and native"
+    ],
+    "correct": "Productive, semi-productive and non-productive"
+  },
+  {
+    "q": "By diachronic approach to the formation of the word  we restore its …/",
+    "options": [
+      "Historical development",
+      "Semantic features",
+      "Morphological  structure",
+      "Phraseological features"
+    ],
+    "correct": "Historical development"
+  },
+  {
+    "q": "Affixation belongs to the type of …",
+    "options": [
+      "Productive means of  word building",
+      "Patterned means of word building",
+      "Historical means of wordword building",
+      "Synchronic means of wordb builing"
+    ],
+    "correct": "Productive means of  word building"
+  },
+  {
+    "q": "Compounding is a type of word formation when  words are formed by…",
+    "options": [
+      "Joining two or more stems together",
+      "Exposing two or more stems",
+      "Isolating two or more stems",
+      "Reversing two or more stems"
+    ],
+    "correct": "Joining two or more stems together"
+  },
+  {
+    "q": "Blending belongs to the type of …",
+    "options": [
+      "Non-productive  ways of word building",
+      "Productive types of  word building",
+      "Etymological  type of word  building",
+      "Historical types of  word building"
+    ],
+    "correct": "Non-productive  ways of word building"
+  },
+  {
+    "q": "Conversion belongs to the type of …",
+    "options": [
+      "Productive way  of word building",
+      "Semi-productive way of word building",
+      "Non-productive way of word building",
+      "External way of word building"
+    ],
+    "correct": "Productive way  of word building"
+  },
+  {
+    "q": "The two big classes of morphemes  that participate in word-building  are……",
+    "options": [
+      "Roots and affixes",
+      "Prexixes and infixes",
+      "Suffixes and  semi-affixes",
+      "Roots and stems"
+    ],
+    "correct": "Roots and affixes"
+  },
+  {
+    "q": "Word formation as a system of the language includes …",
+    "options": [
+      "Types and means of  word building",
+      "Types and means of  meaning change",
+      "Types of borrowings",
+      "Types and means of  affixation"
+    ],
+    "correct": "Types and means of  word building"
+  },
+  {
+    "q": "Which of the following adjective suffixes are  productive?",
+    "options": [
+      "-ly, -ness, -ish",
+      "-ous, -ible,-ant",
+      "-ish, -ive, -al",
+      "-some, - ic, -en"
+    ],
+    "correct": "-ly, -ness, -ish"
+  },
+  {
+    "q": "Which of the following noun suffixes are non-productive?",
+    "options": [
+      "-th, -hood, -dom",
+      "-er, -ment, -tion",
+      "-ship, -tion,- ard",
+      "-ship, -ment, -ist"
+    ],
+    "correct": "-th, -hood, -dom"
+  },
+  {
+    "q": "When a new word is formed by adding a new meaning to the semantic structure of the word we have the case of …",
+    "options": [
+      "Semantic derivation",
+      "Verbal derivation",
+      "Noun derivation",
+      "Adjective derivation"
+    ],
+    "correct": "Semantic derivation"
+  },
+  {
+    "q": "Sound gradation was a productive way of word formation…",
+    "options": [
+      "In Old English",
+      "In Middle English",
+      "In Modern English",
+      "In Global English"
+    ],
+    "correct": "In Old English"
+  },
+  {
+    "q": "Affixation is a type of word formation when new words are formed with the help of…",
+    "options": [
+      "Derivational affixes",
+      "Inflexional morphemes",
+      "Derivational bases",
+      "Word-formation patterns"
+    ],
+    "correct": "Derivational affixes"
+  },
+  {
+    "q": "A  prefixal morpheme stands in the position …",
+    "options": [
+      "Before the root",
+      "After the root",
+      "Apart from the root",
+      "Between two root morphemes"
+    ],
+    "correct": "Before the root"
+  },
+  {
+    "q": "Suffixation is the formation of words by the pattern …",
+    "options": [
+      "Root + Affix",
+      "Affix + Root",
+      "Root + Root",
+      "Root + Inflection"
+    ],
+    "correct": "Root + Affix"
+  },
+  {
+    "q": "Affixes which are actively used in Modern English  to make new words are called…",
+    "options": [
+      "Productive",
+      "Synchronic",
+      "Frequent",
+      "Non-productive"
+    ],
+    "correct": "Productive"
+  },
+  {
+    "q": "A word group including the derivatives which are structurally and semantically related  is called …",
+    "options": [
+      "The word family",
+      "The word cluster",
+      "The word group",
+      "The word meaning"
+    ],
+    "correct": "The word family"
+  },
+  {
+    "q": "Which of the following words is made by prefixation?",
+    "options": [
+      "Disclose",
+      "Disrupt",
+      "Dismay",
+      "Changing the paradigm of  the word"
+    ],
+    "correct": "Disclose"
+  },
+  {
+    "q": "Which of the following words includes a semi-affix?",
+    "options": [
+      "Undesirable",
+      "Unputdownable",
+      "Unputdownable",
+      "Underestimate"
+    ],
+    "correct": "Undesirable"
+  },
+  {
+    "q": "Suffixation is the formation of words by the pattern…",
+    "options": [
+      "Root+affix",
+      "Affix +root",
+      "Affix + affix",
+      "Root + inflection"
+    ],
+    "correct": "Root+affix"
+  },
+  {
+    "q": "Affixes which are placed before the root are called …",
+    "options": [
+      "Prefixes",
+      "Suffixes",
+      "Infixes",
+      "Semi-affixes"
+    ],
+    "correct": "Prefixes"
+  },
+  {
+    "q": "The majority of present – day English compounds are …",
+    "options": [
+      "Subordinative",
+      "Coordinative",
+      "Correlative",
+      "Interdependent"
+    ],
+    "correct": "Subordinative"
+  },
+  {
+    "q": "Which of the following words is made by compounding?",
+    "options": [
+      "Handicraft",
+      "Readability",
+      "Conversation",
+      "Understandable"
+    ],
+    "correct": "Handicraft"
+  },
+  {
+    "q": "Which of the following compounds is a non-motivated  word?",
+    "options": [
+      "Wall-flower",
+      "Sportsman",
+      "Snowball",
+      "Flower-pot"
+    ],
+    "correct": "Wall-flower"
+  },
+  {
+    "q": "The word formation pattern of the type “a jump-to jump”, “cool-to cool”  belongs to…",
+    "options": [
+      "Conversion",
+      "Composition",
+      "Blending",
+      "Sound interchange"
+    ],
+    "correct": "Conversion"
+  },
+  {
+    "q": "Conversion is a type of word formation when new words are formed by…",
+    "options": [
+      "Adding a derivational morpheme",
+      "Clipping a word into a syllable",
+      "Adding a derivational morpheme",
+      "Changing the meaning  of the word"
+    ],
+    "correct": "Adding a derivational morpheme"
+  },
+  {
+    "q": "Shortening as a type of word-formation includes…",
+    "options": [
+      "Clipping and abbreviation",
+      "Affixation and blending",
+      "Conversion and clipping",
+      "Abbreviation and  back-formation"
+    ],
+    "correct": "Clipping and abbreviation"
+  },
+  {
+    "q": "To which type of clipping does the word “phone” (from “telephone”) belong?",
+    "options": [
+      "Apheresis",
+      "Apocope",
+      "Syncope",
+      "Ellipsis"
+    ],
+    "correct": "Apheresis"
+  },
+  {
+    "q": "To which type of clipping does the word “coke” (from “coca-cola”)  belong?",
+    "options": [
+      "Apocope",
+      "Apheresis",
+      "Syncope",
+      "Ellipsis"
+    ],
+    "correct": "Apocope"
+  },
+  {
+    "q": "To which type of clipping does the word  “flu” (from “influenza”)  belong?",
+    "options": [
+      "Syncope",
+      "Ellipsis",
+      "Apocope",
+      "Apheresis"
+    ],
+    "correct": "Syncope"
+  },
+  {
+    "q": "The type of word-formation when the  initial letters of the words forming a word  group are put together is called…",
+    "options": [
+      "Abbreviation",
+      "Clipping",
+      "Composition",
+      "Affixation"
+    ],
+    "correct": "Abbreviation"
+  },
+  {
+    "q": "If an abbreviation is pronounced  as  an ordinary English word, it is termed  as an …",
+    "options": [
+      "Acronym",
+      "Clipping",
+      "Shortening",
+      "Antonym"
+    ],
+    "correct": "Acronym"
+  },
+  {
+    "q": "Which of the following words can be referred to as an acronym?",
+    "options": [
+      "Laser",
+      "Teacher",
+      "Player",
+      "Flyer"
+    ],
+    "correct": "Laser"
+  },
+  {
+    "q": "Reduction of a word up to a syllable is called …",
+    "options": [
+      "Clipping",
+      "Blending",
+      "Cutting",
+      "Changing"
+    ],
+    "correct": "Clipping"
+  },
+  {
+    "q": "Shortening as a type of word-formation includes …",
+    "options": [
+      "Abbreviation and clipping",
+      "Affixation and blending",
+      "Clipping and blending",
+      "Lexicalisation and  ellipsis"
+    ],
+    "correct": "Abbreviation and clipping"
+  },
+  {
+    "q": "Minor types of word formation are those which…",
+    "options": [
+      "Are not productive synchronically",
+      "Are productive synchronically",
+      "Are productive in compounding",
+      "Are not productive in  affixation"
+    ],
+    "correct": "Are not productive synchronically"
+  },
+  {
+    "q": "Type of word formation when a word is formed by joining irregular parts of two words is termed …",
+    "options": [
+      "Blending",
+      "Affixation",
+      "Back formation",
+      "Clipping"
+    ],
+    "correct": "Blending"
+  },
+  {
+    "q": "Type of word formation when a word is formed by changing sounds in the root is termed…",
+    "options": [
+      "Sound gradation",
+      "Sound imitation",
+      "Sound  shift",
+      "Sound loss"
+    ],
+    "correct": "Sound gradation"
+  },
+  {
+    "q": "Type of word-formation when a  real or supposed affix is taken away is called…",
+    "options": [
+      "Back-formation",
+      "Affixation",
+      "Suffixation",
+      "Shortening"
+    ],
+    "correct": "Back-formation"
+  },
+  {
+    "q": "Type of word formation when a new word is formed by shifting the stress  to another part of the word is .…",
+    "options": [
+      "Stress interchange",
+      "Syllable interchange",
+      "Sound interchange",
+      "Meaning interchange"
+    ],
+    "correct": "Stress interchange"
+  },
+  {
+    "q": "When the plural form of a noun acquires a new  lexical meaning is called…",
+    "options": [
+      "Lexicalisation",
+      "Substantivation",
+      "Verbalisation",
+      "Pluralisation"
+    ],
+    "correct": "Lexicalisation"
+  },
+  {
+    "q": "Which of the following words is made by the word-formation type of lexicalization?",
+    "options": [
+      "Customs",
+      "Traditions",
+      "Developments",
+      "Pants"
+    ],
+    "correct": "Customs"
+  },
+  {
+    "q": "Words motivated with reference to the extralinguistic world and echoing natural sounds are formed by means of …",
+    "options": [
+      "Sound imitation",
+      "Sound interchange",
+      "Sound gradation",
+      "Sound degradation"
+    ],
+    "correct": "Sound imitation"
+  },
+  {
+    "q": "Which of the following words was formed by back-formation?",
+    "options": [
+      "To beg",
+      "To dig",
+      "To set",
+      "To get"
+    ],
+    "correct": "To beg"
+  },
+  {
+    "q": "When an adjectival word acquires the  properties of a noun like “poor- the poor”  in word-formation this process is called…",
+    "options": [
+      "Substantivation",
+      "Conversion",
+      "Derivation",
+      "Lexicalization"
+    ],
+    "correct": "Substantivation"
+  },
+  {
+    "q": "Find a word which was formed by a combined pattern of affixation  and soundinterchange:",
+    "options": [
+      "Southern",
+      "Western",
+      "Eastern",
+      "Darken"
+    ],
+    "correct": "Southern"
+  },
+  {
+    "q": "Word pairs like “a ′present – to pre′sent”   are made by the word-formation  pattern called…",
+    "options": [
+      "Stress interchange",
+      "Sound interchange",
+      "Sound imitation",
+      "Conversion"
+    ],
+    "correct": "Stress interchange"
+  },
+  {
+    "q": "The pattern by which the words “speech”, “food”, “stroke” are made is called …",
+    "options": [
+      "Sound interchange",
+      "Sound imitation",
+      "Conversion",
+      "Composition"
+    ],
+    "correct": "Sound interchange"
+  },
+  {
+    "q": "The process of alternation in the phonetic composition of the root is called",
+    "options": [
+      "Sound interchange",
+      "Vowel and consonant interchange",
+      "Consonant interchange",
+      "Vowel interchange"
+    ],
+    "correct": "Sound interchange"
+  },
+  {
+    "q": "How was the word ‘slimnastics’ made?",
+    "options": [
+      "By blending",
+      "By shortening",
+      "By affixation",
+      "By immitation"
+    ],
+    "correct": "By blending"
+  },
+  {
+    "q": "How was the word ‘to babysit’ made?",
+    "options": [
+      "By back formation",
+      "By blending",
+      "By shortening",
+      "By affixation"
+    ],
+    "correct": "By back formation"
+  },
+  {
+    "q": "The word ‘ping-pong’ was made by the type of …",
+    "options": [
+      "Reduplication",
+      "Lexicalisation",
+      "Affixation",
+      "Compounding"
+    ],
+    "correct": "Reduplication"
+  },
+  {
+    "q": "The word ‘arms’ is a lexicalized synonym of…",
+    "options": [
+      "Weapons",
+      "Hands",
+      "Arms",
+      "Feet"
+    ],
+    "correct": "Weapons"
+  },
+  {
+    "q": "The word ‘finals’ was formed from ’final exams’ by means of…",
+    "options": [
+      "Substantivisation",
+      "Adjectivisation",
+      "Verbalisation",
+      "Lexilisation"
+    ],
+    "correct": "Substantivisation"
+  },
+  {
+    "q": "The meaning ‘a computer device’ in the word ‘mouse’ is the result of …",
+    "options": [
+      "Semantic derivation",
+      "Semantic isolation",
+      "Synonymic development",
+      "Homonymic development"
+    ],
+    "correct": "Semantic derivation"
+  },
+  {
+    "q": "The two main types of meaning every   notional word has are…",
+    "options": [
+      "Grammatical and lexical",
+      "Semantic and syntactic",
+      "Derivational and direct",
+      "Transferred and nominal"
+    ],
+    "correct": "Grammatical and lexical"
+  },
+  {
+    "q": "The appearance of a new meaning in the semantic structure of a word is called…",
+    "options": [
+      "Semantic derivation",
+      "Structural derivation",
+      "Word derivation",
+      "Morphemic  derivation"
+    ],
+    "correct": "Semantic derivation"
+  },
+  {
+    "q": "The way of the change of word meaning which is based  on similarity is called…",
+    "options": [
+      "Metaphor",
+      "Metonymy",
+      "Generalization /or extension",
+      "Specialization /or restriction"
+    ],
+    "correct": "Metaphor"
+  },
+  {
+    "q": "The relationship between the morphemic or phonetic composition and its meaning is called …",
+    "options": [
+      "Motivation",
+      "Lexicalization",
+      "Degradation",
+      "Derivation"
+    ],
+    "correct": "Motivation"
+  },
+  {
+    "q": "The linguistic context represents  …",
+    "options": [
+      "Both lexical and grammatical context",
+      "Phonetic context",
+      "Grammatical context",
+      "Lexical context"
+    ],
+    "correct": "Both lexical and grammatical context"
+  },
+  {
+    "q": "The factors causing semantic changes in the words may be subdivided into …",
+    "options": [
+      "Extra linguistic and linguistic",
+      "Synchronic – diachronic",
+      "Linguistic",
+      "Extra – linguistic"
+    ],
+    "correct": "Extra linguistic and linguistic"
+  },
+  {
+    "q": "The semantic relationship of inclusion is the feature of …",
+    "options": [
+      "Hyponymy",
+      "Synonymy",
+      "Antonymy",
+      "Homonymy"
+    ],
+    "correct": "Hyponymy"
+  },
+  {
+    "q": "One of the results of semantic change when a word comes to denote a more specific thing is called …",
+    "options": [
+      "Specialization /or restriction/",
+      "Generalization /or extension/",
+      "Degradation /or deterioration/",
+      "Elevation /or amelioration"
+    ],
+    "correct": "Specialization /or restriction/"
+  },
+  {
+    "q": "Which of the following words has a metonymical meaning?",
+    "options": [
+      "The Book",
+      "The Netherlands",
+      "The Caucasus",
+      "The Hague"
+    ],
+    "correct": "The Book"
+  },
+  {
+    "q": "The semantic process of associating referents one of which makes part of the other or is closely connected with it is called…",
+    "options": [
+      "A Contiguity of meaning",
+      "Similarity of meaning",
+      "Polarity of meaning",
+      "Both similarity and polarity of meaning"
+    ],
+    "correct": "A Contiguity of meaning"
+  },
+  {
+    "q": "The process of applying the name of one  thing to another with which it has some permanent connection in reality is called…",
+    "options": [
+      "Metonymy",
+      "Metaphor",
+      "Synonymy",
+      "Acronymy"
+    ],
+    "correct": "Metonymy"
+  },
+  {
+    "q": "The semantic process of applying the name of one thing to another to which it has some  resemblance is called…",
+    "options": [
+      "Metaphor",
+      "Metonymy",
+      "Homonymy",
+      "Derivation"
+    ],
+    "correct": "Metaphor"
+  },
+  {
+    "q": "Which of the following collocations has a word with a metaphoric meaning?",
+    "options": [
+      "A leg of a table",
+      "A plate of soup",
+      "A branch of a tree",
+      "A page of a book"
+    ],
+    "correct": "A leg of a table"
+  },
+  {
+    "q": "Such meanings as “human being”, “female”, “adult” distinguished in the word “woman” are  called….",
+    "options": [
+      "Sememes",
+      "Componemes",
+      "Morphemes",
+      "Lexemes"
+    ],
+    "correct": "Sememes"
+  },
+  {
+    "q": "The method based on revealing semantic features  of the word is called …",
+    "options": [
+      "Componential",
+      "Contrastive",
+      "Distrubutional",
+      "Contexual"
+    ],
+    "correct": "Componential"
+  },
+  {
+    "q": "A system of language means peculiar to a specific sphere of communication is called …",
+    "options": [
+      "A functional style",
+      "A lexical style",
+      "A formal style",
+      "A typical style"
+    ],
+    "correct": "A functional style"
+  },
+  {
+    "q": "The nature of semantic change may be through …",
+    "options": [
+      "Metaphorical and metonymical change",
+      "Metaphorical and idiomatic change",
+      "Metonymical and phraseological change",
+      "Idiomatic and transferred change"
+    ],
+    "correct": "Metaphorical and metonymical change"
+  },
+  {
+    "q": "The meaning of the word which can be understood without a context is called…",
+    "options": [
+      "Direct",
+      "Indirect",
+      "Figurative",
+      "Transfered"
+    ],
+    "correct": "Direct"
+  },
+  {
+    "q": "Differentiation of synonyms may be observed in …",
+    "options": [
+      "Denotational and connotational semantic component",
+      "Antonyms",
+      "Connotational semantic components",
+      "Notional semantic"
+    ],
+    "correct": "Denotational and connotational semantic component"
+  },
+  {
+    "q": "Homophones are words having …",
+    "options": [
+      "The same pronunciation but different spelling",
+      "The same spelling",
+      "The same meaning",
+      "The same spelling but different pronunciation"
+    ],
+    "correct": "The same pronunciation but different spelling"
+  },
+  {
+    "q": "The words having different meanings and sound forms but similar in spelling are called…",
+    "options": [
+      "Homographs",
+      "Antonyms",
+      "Synonyms",
+      "Homophones"
+    ],
+    "correct": "Homographs"
+  },
+  {
+    "q": "Words different in sound form but similar in meaning and interchangeable in some contexts are called",
+    "options": [
+      "Synonyms",
+      "Antonyms",
+      "Homonyms",
+      "Hyponyms"
+    ],
+    "correct": "Synonyms"
+  },
+  {
+    "q": "Antonyms are words having …",
+    "options": [
+      "Opposite meanings",
+      "motive meanings",
+      "Identical or similar meanings",
+      "More than one meaning"
+    ],
+    "correct": "Opposite meanings"
+  },
+  {
+    "q": "Words used instead of unpleasant or rude ones are called …",
+    "options": [
+      "Euphemisms",
+      "Hybrid words",
+      "Hyponyms",
+      "Equivalent words"
+    ],
+    "correct": "Euphemisms"
+  },
+  {
+    "q": "Words that drop out as a result of the disappearance of the actual objects they denote  are called …",
+    "options": [
+      "Obsolete words",
+      "Archaisms",
+      "Historicisms",
+      "Barbarisms"
+    ],
+    "correct": "Obsolete words"
+  },
+  {
+    "q": "The main criterion underlying semantic classification of vocabulary units on the paradigmatic  level is",
+    "options": [
+      "The type of meaning opposition between words",
+      "The type of part of speech meaning",
+      "The type of meaning closeness between word",
+      "The type of meaning  identity between words"
+    ],
+    "correct": "The type of meaning opposition between words"
+  },
+  {
+    "q": "Words which coincide in denotational meaning but differ in the communication spheres are called",
+    "options": [
+      "Stylistic synonyms",
+      "Ideographic synonyms",
+      "Etymological synonyms",
+      "Affixal synonyms"
+    ],
+    "correct": "Stylistic synonyms"
+  },
+  {
+    "q": "Words of the same part of speech which have  contrastive meanings are called…",
+    "options": [
+      "Antonyms",
+      "Synonyms",
+      "Paronyms",
+      "Homonyms"
+    ],
+    "correct": "Antonyms"
+  },
+  {
+    "q": "Most antonyms in the English language are…",
+    "options": [
+      "Adjectives",
+      "Verbs",
+      "Nouns",
+      "Verbs"
+    ],
+    "correct": "Adjectives"
+  },
+  {
+    "q": "Antonyms which are formed by adding negative prefixes or suffixes are called …",
+    "options": [
+      "Derivational antonyms",
+      "Semantic antonyms",
+      "Borrowed antonyms",
+      "Lexical antonyms"
+    ],
+    "correct": "Derivational antonyms"
+  },
+  {
+    "q": "A word in the synonymic group which is the most Frequently used  and stylistically  neutral is called …",
+    "options": [
+      "Synonymic dominant",
+      "Homonymic dominant",
+      "Hyponymic synonym",
+      "Stylistic synonym"
+    ],
+    "correct": "Synonymic dominant"
+  },
+  {
+    "q": "Which of the given synonyms ‘to stare, to gaze, to look, to glance’  is the synonymic dominant?",
+    "options": [
+      "To look",
+      "To stare",
+      "To gaze",
+      "To glance"
+    ],
+    "correct": "To look"
+  },
+  {
+    "q": "The synonyms ‘beautiful’ and ‘handsome’ differ in  their …",
+    "options": [
+      "Pragmatic",
+      "Semantic",
+      "Functional",
+      "Phraseological"
+    ],
+    "correct": "Pragmatic"
+  },
+  {
+    "q": "The word ‘mug’ is a slang version of …",
+    "options": [
+      "Face",
+      "Hand",
+      "Foot",
+      "Nose"
+    ],
+    "correct": "Face"
+  },
+  {
+    "q": "Toponyms are words denoting  names of …",
+    "options": [
+      "Places and locations",
+      "Birds and animals",
+      "Fauna and flora",
+      "Fruits and vegetables"
+    ],
+    "correct": "Places and locations"
+  },
+  {
+    "q": "Semantic relationship of inclusion of the word into a thematic class is called…",
+    "options": [
+      "Hyponymy",
+      "Synonymy",
+      "Homonymy",
+      "Antonymy"
+    ],
+    "correct": "Hyponymy"
+  },
+  {
+    "q": "The word ‘vehicle’ is a hyperonym of the words…",
+    "options": [
+      "Car and  bus",
+      "Chair and table",
+      "Book and notebook",
+      "Furniture and kitchenware"
+    ],
+    "correct": "Car and  bus"
+  },
+  {
+    "q": "The branch of Lexicology which studies various types of set expressions is termed …",
+    "options": [
+      "Phraseology",
+      "Semasiology",
+      "Lexicography",
+      "Morphology"
+    ],
+    "correct": "Phraseology"
+  },
+  {
+    "q": "Phraseological units are …",
+    "options": [
+      "Functionally and semantically inseparable units",
+      "Functionally interchangeable units",
+      "Semantically motivated units",
+      "Free and bound word – combinations"
+    ],
+    "correct": "Functionally and semantically inseparable units"
+  },
+  {
+    "q": "Find the end of the proverb ‘ Too many cooks…",
+    "options": [
+      "…spoil the broth”",
+      "…a horse of another colour”",
+      "…is a friend indeed”",
+      "...cannot be undone »"
+    ],
+    "correct": "…spoil the broth”"
+  },
+  {
+    "q": "Fully  non-motivated phraseological unit is called…",
+    "options": [
+      "Idiom",
+      "Unity",
+      "Collocation",
+      "Phraseme"
+    ],
+    "correct": "Idiom"
+  },
+  {
+    "q": "A phraseological units of the type ‘a horse of another color” is classified by Kunin A. as …",
+    "options": [
+      "Communicative",
+      "Nominative",
+      "interjectional",
+      "Substantive"
+    ],
+    "correct": "Communicative"
+  },
+  {
+    "q": "The phrases ‘in deep water’ and ‘in deep waters’ are classified as …",
+    "options": [
+      "Grammatical variants",
+      "Lexical variants",
+      "Stylistic variants",
+      "Dialectal variants"
+    ],
+    "correct": "Grammatical variants"
+  },
+  {
+    "q": "Phraseological units in which all the components have transferred meanings are called by N.N Amosova....",
+    "options": [
+      "Idioms",
+      "Non-motivated phraseological units",
+      "Phrasemes",
+      "Indirect phraseological units"
+    ],
+    "correct": "Idioms"
+  },
+  {
+    "q": "Academician Vinogradov V.V. classified phraseological units into:",
+    "options": [
+      "Phraseological fusions, phraseological unities and phraseological collocations",
+      "Phraseological units, phraseological meanings and phraseological groups",
+      "Phraseological collocations, phraseological groups and traditional phrases",
+      "Set expressions, phraseological unities and historical collocations"
+    ],
+    "correct": "Phraseological fusions, phraseological unities and phraseological collocations"
+  },
+  {
+    "q": "Which of the following word groups is a phraseological unit?",
+    "options": [
+      "To put on airs",
+      "To put on a coat",
+      "To put on shoes",
+      "To put on a hat"
+    ],
+    "correct": "To put on airs"
+  },
+  {
+    "q": "A phraseme is a unit which is …",
+    "options": [
+      "Partially motivated",
+      "Fully motivated",
+      "Non-motivated",
+      "Freely motivated"
+    ],
+    "correct": "Partially motivated"
+  },
+  {
+    "q": "Idiomaticity is a phenomenon of …",
+    "options": [
+      "Impossibility of understanding a phrase from meanings of  its components",
+      "Inseparability of components",
+      "Incompatibility of components",
+      "Indivisibility of the structure"
+    ],
+    "correct": "Impossibility of understanding a phrase from meanings of  its components"
+  },
+  {
+    "q": "A phraseological collocation is a phrase …",
+    "options": [
+      "Traditionally fixed and motivated",
+      "Free word group and motivated",
+      "Having two or more words",
+      "Non-understandible from its components"
+    ],
+    "correct": "Traditionally fixed and motivated"
+  },
+  {
+    "q": "Which of the following word groups is not a phraseological unit?",
+    "options": [
+      "To kick the door",
+      "To kick the bucket",
+      "To hold ones’ horses",
+      "To hold ones’ tongue"
+    ],
+    "correct": "To kick the door"
+  },
+  {
+    "q": "“To take a liking” according to V.Vinogradov’s  classification is ….",
+    "options": [
+      "A phraseological collocation",
+      "A phraseological unity",
+      "A phraseological  fusion",
+      "A phraseological expression"
+    ],
+    "correct": "A phraseological collocation"
+  },
+  {
+    "q": "According to A.Kunin’s classification a proverb is…",
+    "options": [
+      "Communicative unit",
+      "Nominative unit",
+      "Interjectional unit",
+      "Verbal unit"
+    ],
+    "correct": "Communicative unit"
+  },
+  {
+    "q": "The founder of the science of Phraseology is …",
+    "options": [
+      "Charles Bally",
+      "Michel Breal",
+      "Charles Ogden",
+      "Steven Ullman"
+    ],
+    "correct": "Charles Bally"
+  },
+  {
+    "q": "How many classes of phraseological units did  A.Kunin distinguish?",
+    "options": [
+      "Four",
+      "Five",
+      "Three",
+      "Seven"
+    ],
+    "correct": "Four"
+  },
+  {
+    "q": "Which of the following units is an idiom?",
+    "options": [
+      "To pull one’s leg",
+      "To pull the door",
+      "To pull the string",
+      "To pull the chair"
+    ],
+    "correct": "To pull one’s leg"
+  },
+  {
+    "q": "Find the beginning of the saying ‘… is half of the battle’",
+    "options": [
+      "A good beginning…",
+      "A friend indeed…",
+      "An apple a day…",
+      "A word spoken…"
+    ],
+    "correct": "A good beginning…"
+  },
+  {
+    "q": "A phrasal verb is …",
+    "options": [
+      "A verb with a preposition or adverb",
+      "A verb and a noun",
+      "A verb and an adjective",
+      "A verb and a verb"
+    ],
+    "correct": "A verb with a preposition or adverb"
+  },
+  {
+    "q": "How was the phraseological unit ‘the last straw’ formed?",
+    "options": [
+      "By shortening a proverb",
+      "By shortening a sentence",
+      "By borrowing",
+      "By semantic extension"
+    ],
+    "correct": "By shortening a proverb"
+  },
+  {
+    "q": "According to etymological characteristics, words are classified  into …",
+    "options": [
+      "Native and borrowed",
+      "Simple and complex",
+      "Derived and compound",
+      "General and special"
+    ],
+    "correct": "Native and borrowed"
+  },
+  {
+    "q": "A barbarism is a borrowed word which…",
+    "options": [
+      "Has not been assimilated in the new language",
+      "Has been partially assimilated in the new language",
+      "Has been fully assimilated in the new language",
+      "Has been phonetically assimilated"
+    ],
+    "correct": "Has not been assimilated in the new language"
+  },
+  {
+    "q": "The origin of the borrowed word  is …",
+    "options": [
+      "The language where the word was born",
+      "The language where the word   produced  its first derivative",
+      "The language from which the word was taken",
+      "The language where  the word  changed its meaning"
+    ],
+    "correct": "The language where the word was born"
+  },
+  {
+    "q": "According to the degree of assimilation the borrowings are classified into…",
+    "options": [
+      "Fully assimilated; partially assimilated; non-assimilated",
+      "Highly assimilated and unassimilated",
+      "Lexically and phonetically assimilated",
+      "Grammatically assimilated"
+    ],
+    "correct": "Fully assimilated; partially assimilated; non-assimilated"
+  },
+  {
+    "q": "What lexical units may be borrowed from  other languages?",
+    "options": [
+      "Affixes, words and set phrases",
+      "Sounds, words and meanings",
+      "Morphemes, phonemes and lexemes",
+      "Inflexions, words and phrases"
+    ],
+    "correct": "Affixes, words and set phrases"
+  },
+  {
+    "q": "Words borrowed by several languages and having similar meanings in all of them are called…",
+    "options": [
+      "International words",
+      "Translation loans",
+      "Borrowings proper",
+      "Etymological doublets"
+    ],
+    "correct": "International words"
+  },
+  {
+    "q": "Of the total number of words in the English vocabulary  the stock of native words comprises …",
+    "options": [
+      "30%",
+      "50%",
+      "70%",
+      "90 %"
+    ],
+    "correct": "30%"
+  },
+  {
+    "q": "The language through which a word was borrowed into a new language is called…",
+    "options": [
+      "Source of borrowing",
+      "Origin of borrowing",
+      "Reason of borrowing",
+      "Borrowing proper"
+    ],
+    "correct": "Source of borrowing"
+  },
+  {
+    "q": "The suffix “–age” in the word “shortage” was borrowed into English from…",
+    "options": [
+      "French",
+      "Latin",
+      "Italian",
+      "Uzbek"
+    ],
+    "correct": "French"
+  },
+  {
+    "q": "A special kind of borrowing when a borrowed word or  combination of words undergoes the process of translation according to the patterns of the source language is called …",
+    "options": [
+      "Translation loan",
+      "Semantic loan",
+      "Borrowing proper",
+      "International word"
+    ],
+    "correct": "Translation loan"
+  },
+  {
+    "q": "The languages which contributed to the English word stock  mostly  are",
+    "options": [
+      "French, Latin and Greek",
+      "French, Italian and German",
+      "Latin, Greek and Spanish",
+      "Russian, Greek and Latin"
+    ],
+    "correct": "French, Latin and Greek"
+  },
+  {
+    "q": "Words created from both native and borrowed elements are called…",
+    "options": [
+      "Etymological hybrids",
+      "Etymological doublets",
+      "Etymological words",
+      "Etymological synonyms"
+    ],
+    "correct": "Etymological hybrids"
+  },
+  {
+    "q": "From the point of view of assimilation the word ’machine’ from French  is…",
+    "options": [
+      "Partially assimilated",
+      "Fully assimilated",
+      "Non-assimilated",
+      "Assimilated"
+    ],
+    "correct": "Partially assimilated"
+  },
+  {
+    "q": "Compared to  the word ‘infant’ the word ‘boy’ is classified as …",
+    "options": [
+      "A native word",
+      "A borrowed word",
+      "A  mixed word",
+      "A foreign word"
+    ],
+    "correct": "A native word"
+  },
+  {
+    "q": "The words ‘hospital’, ‘hostel’ and ‘hotel’ represent an example of…",
+    "options": [
+      "Etymological triplets",
+      "Etymological doublets",
+      "Etymological hybrids",
+      "Etymological synonyms"
+    ],
+    "correct": "Etymological triplets"
+  },
+  {
+    "q": "The  borrowed words which were not assimilated  in any way are called…",
+    "options": [
+      "Barbarisms",
+      "Internationalisms",
+      "Neologisms",
+      "Slangisms"
+    ],
+    "correct": "Barbarisms"
+  },
+  {
+    "q": "The word ‘sputnik’ has been borrowed into English  from…",
+    "options": [
+      "Russian",
+      "French",
+      "Uzbek",
+      "Germanb"
+    ],
+    "correct": "Russian"
+  },
+  {
+    "q": "The  origin of the word  ‘admiral’ in English  is…",
+    "options": [
+      "Arabic",
+      "French",
+      "Latin",
+      "Greek"
+    ],
+    "correct": "Arabic"
+  },
+  {
+    "q": "179. The English word “volley-ball’  is termed  …",
+    "options": [
+      "nternational",
+      "National",
+      "Borrowed",
+      "Native"
+    ],
+    "correct": "nternational"
+  },
+  {
+    "q": "The borrowing ‘qaynoq  hitlar/горячие хиты’ is classified as",
+    "options": [
+      "Translation loan",
+      "Borrowed word",
+      "Native word",
+      "Etymological doublets"
+    ],
+    "correct": "Translation loan"
+  },
+  {
+    "q": "What is called a language variant?",
+    "options": [
+      "A regional variety having literary form",
+      "An independent language",
+      "A dialectal variety",
+      "A borrowed language"
+    ],
+    "correct": "A regional variety having literary form"
+  },
+  {
+    "q": "The American variant of the English language differs from British English chiefly in…",
+    "options": [
+      "Vocabulary",
+      "Grammar",
+      "Pronunciation",
+      "Style"
+    ],
+    "correct": "Vocabulary"
+  },
+  {
+    "q": "American English is…",
+    "options": [
+      "A regional variety of English",
+      "An independent language",
+      "A dialect of English",
+      "A literary variant of English"
+    ],
+    "correct": "A regional variety of English"
+  },
+  {
+    "q": "Groups of words which belong to the American vocabulary exclusively are  called …",
+    "options": [
+      "Americanisms",
+      "Britishisms",
+      "Latinisms",
+      "Neologisms"
+    ],
+    "correct": "Americanisms"
+  },
+  {
+    "q": "Of what origin are the American place names Ohio, Michigan, Kentucky?",
+    "options": [
+      "Indian",
+      "Black American",
+      "Australian",
+      "Spanish"
+    ],
+    "correct": "Indian"
+  },
+  {
+    "q": "American analogue of British ‘luggage’ is…",
+    "options": [
+      "Baggage",
+      "Suitcase",
+      "Package",
+      "Storage"
+    ],
+    "correct": "Baggage"
+  },
+  {
+    "q": "Which of the given synonyms is an Americanism?",
+    "options": [
+      "Kid",
+      "Child",
+      "Baby",
+      "Infant"
+    ],
+    "correct": "Kid"
+  },
+  {
+    "q": "American English cannot be called a dialect because…",
+    "options": [
+      "It is an official state language",
+      "It has a narrow usage sphere",
+      "It has limited number of speakers",
+      "It has no literary standard"
+    ],
+    "correct": "It is an official state language"
+  },
+  {
+    "q": "What is the full form of the  Americanism ‘dorm’?",
+    "options": [
+      "Dormitory",
+      "Dormant",
+      "Dormer",
+      "Dormobile"
+    ],
+    "correct": "Dormitory"
+  },
+  {
+    "q": "What is Cockney as a variety of English?",
+    "options": [
+      "Slang",
+      "Variant",
+      "Substandard",
+      "Style"
+    ],
+    "correct": "Slang"
+  },
+  {
+    "q": "In Australian English the expression “No worries!” is a regional variant of…",
+    "options": [
+      "You’re welcome!",
+      "All right!",
+      "Thank you!",
+      "Sorry!"
+    ],
+    "correct": "You’re welcome!"
+  },
+  {
+    "q": "In the Cockney slang of English the combination ‘dustbin lids’ means …",
+    "options": [
+      "Kids",
+      "Buckets",
+      "Bags",
+      "Lids"
+    ],
+    "correct": "Kids"
+  },
+  {
+    "q": "The word ‘lass’ is a synonym of ‘girl’ in …",
+    "options": [
+      "Scottish English",
+      "Irish English",
+      "Welsh English",
+      "American English"
+    ],
+    "correct": "Scottish English"
+  },
+  {
+    "q": "What is the name of the area of lexicology specializing in the semantic studies of the word?",
+    "options": [
+      "It is called semantics.",
+      "It is called phraseology.",
+      "It is called grammar.",
+      "It is called sociolinguistics."
+    ],
+    "correct": "It is called semantics."
+  },
+  {
+    "q": "What do we mean by external structure of the word?",
+    "options": [
+      "We mean its morphological structure.",
+      "We mean its lexical meaning",
+      "We mean its lexico-grammatical structure",
+      "We mean its linguistic structure."
+    ],
+    "correct": "We mean its morphological structure."
+  },
+  {
+    "q": "On what level is the word studied in its relationships with other words the vocabulary system?",
+    "options": [
+      "It is studied on the paradigmatic level.",
+      "It is studied on the simple level.",
+      "It is studied on the modern level.",
+      "It is studied on the syntagmatic level."
+    ],
+    "correct": "It is studied on the paradigmatic level."
+  },
+  {
+    "q": "What is the smallest meaningful unit of speech?",
+    "options": [
+      "a morpheme",
+      "a stem",
+      "a word",
+      "a sound"
+    ],
+    "correct": "a morpheme"
+  },
+  {
+    "q": "Which words do we call homonyms?",
+    "options": [
+      "Homonyms are the words which are identical in sound and spelling",
+      "Homonyms are the words which are identical in their meaning",
+      "Homonyms are the words which are identical in pronunciation",
+      "Homonyms are the words which are identical in speaking"
+    ],
+    "correct": "Homonyms are the words which are identical in sound and spelling"
+  },
+  {
+    "q": "What is the main way of enriching and enlarging the English vocabulary?",
+    "options": [
+      "The main way of enriching the English vocabulary is word-building",
+      "The main way of enriching the English vocabulary is affixation",
+      "The main way of enriching the English vocabulary is conversion",
+      "The main way of enriching the English vocabulary is composition"
+    ],
+    "correct": "The main way of enriching the English vocabulary is word-building"
+  },
+  {
+    "q": "All morphemes are subdivided into two large classes: .... and ....",
+    "options": [
+      "roots and affixes",
+      "prefixes and affixes",
+      "roots and suffixes",
+      "suffixes and affixes."
+    ],
+    "correct": "roots and affixes"
+  },
+  {
+    "q": "Find the difference between morpheme and phoneme.",
+    "options": [
+      "morphemes have meaning but phonemes have not",
+      "morphemes have no meaning but phonemes have",
+      "morphemes have stems",
+      "phonemes are meaningful"
+    ],
+    "correct": "morphemes have meaning but phonemes have not"
+  },
+  {
+    "q": "The relationship existing between words may be …",
+    "options": [
+      "syntagmatic or paradigmatic",
+      "diachronic and synchronic",
+      "paradygmatic",
+      "syntagmatic"
+    ],
+    "correct": "syntagmatic or paradigmatic"
+  },
+  {
+    "q": "Etymologically the vocabulary of the English language consists of …",
+    "options": [
+      "two groups- the native words and the borrowed words",
+      "two groups- the native words and the real words",
+      "three groups- the native words, the real existed and the borrowed words",
+      "the native words"
+    ],
+    "correct": "two groups- the native words and the borrowed words"
+  },
+  {
+    "q": "Synonyms may be divided into:",
+    "options": [
+      "ideographic synonyms and stylistic synonyms",
+      "native synonyms and borrowed synonyms",
+      "stylistic and lexic synonyms",
+      "semantic and stylistic synonyms"
+    ],
+    "correct": "ideographic synonyms and stylistic synonyms"
+  },
+  {
+    "q": "Antonyms may be divided into:",
+    "options": [
+      "root antonyms and derivational antonyms",
+      "stylistic and derivational antonyms",
+      "root and stylistic antonyms",
+      "native and root antonyms"
+    ],
+    "correct": "root antonyms and derivational antonyms"
+  },
+  {
+    "q": "Translation or parallel dictionaries…",
+    "options": [
+      "are word-books containing vocabulary items in one language and their equivalents in another language. are word-books containing vocabulary items in 2 languages and their equivalents in another language.",
+      "are very important in studying Lexicology",
+      "are word-books containing vocabulary items in one language"
+    ],
+    "correct": "are word-books containing vocabulary items in one language and their equivalents in another language. are word-books containing vocabulary items in 2 languages and their equivalents in another language."
+  },
+  {
+    "q": "What do we mean by derivation?",
+    "options": [
+      "It is one of the most productive ways of word-building",
+      "It is a structural type of Modern English words",
+      "It is a process of developing English words",
+      "It is a way of forming a new meaning"
+    ],
+    "correct": "It is one of the most productive ways of word-building"
+  },
+  {
+    "q": "Which categories of parts of speech are especially affected by conversion?",
+    "options": [
+      "The two categories of speech affected by conversion are nouns and verbs",
+      "The three categories affected by conversion are verbs, nouns and adverbs",
+      "The category of parts of speech affected by conversion is nouns",
+      "The category of parts of speech affected by conversion is verbs"
+    ],
+    "correct": "The two categories of speech affected by conversion are nouns and verbs"
+  },
+  {
+    "q": "Metaphor, metonymy, hyperbole are ...",
+    "options": [
+      "types of semantic change",
+      "types of general change",
+      "types of morphological change",
+      "types of grammar change."
+    ],
+    "correct": "types of semantic change"
+  },
+  {
+    "q": "By borrowing (or loan-word) we mean a word which came ...",
+    "options": [
+      "into the vocabulary of one language from another language",
+      "into the vocabulary of many languages from one language",
+      "into the stock of words of different languages from any foreign language",
+      "into the vocabulary of one language from 2 or 3 other languages"
+    ],
+    "correct": "into the vocabulary of one language from another language"
+  },
+  {
+    "q": "The conversion, derivation and composition are ...",
+    "options": [
+      "the productive ways of word-building",
+      "the productive ways of producing new words",
+      "the productive ways of forming new meanings",
+      "the productive ways of developing the language"
+    ],
+    "correct": "the productive ways of word-building"
+  },
+  {
+    "q": "The process of affixation consists in coining a new word by ...",
+    "options": [
+      "adding an affix to some root",
+      "deriving words from different languages to some root morpheme",
+      "adding a suffix to some root",
+      "adding a stem to some root."
+    ],
+    "correct": "adding an affix to some root"
+  },
+  {
+    "q": "…consists in making a new word from some existing word by changing the category of a part of speech.",
+    "options": [
+      "Conversion",
+      "Derivation",
+      "Composition",
+      "Affixation"
+    ],
+    "correct": "Conversion"
+  },
+  {
+    "q": "This type of word-building consists in producing a new word by combining two or more stems.",
+    "options": [
+      "It is composition",
+      "It is affixation",
+      "It is derivation",
+      "It is shortening"
+    ],
+    "correct": "It is composition"
+  },
+  {
+    "q": "What three aspects of composition are there in the English language?",
+    "options": [
+      "They are neutral, morphological and syntactic",
+      "They are grammar, neutral and syntactic",
+      "They are syntactic, morphological and linguistic",
+      "They are simple, neutral and morphological"
+    ],
+    "correct": "They are neutral, morphological and syntactic"
+  },
+  {
+    "q": "What are the four types which represent the main structural types of Modern English words?",
+    "options": [
+      "root words, derived words, compounds and shortenings",
+      "root words, derivatives, compounds and international words",
+      "root words, derived words, loan words and shortenings",
+      "compounds, shortenings, homonyms and root words"
+    ],
+    "correct": "root words, derived words, compounds and shortenings"
+  },
+  {
+    "q": "What is the common word for such terms as \"set expressions, fixed word- groups, set phrases”?",
+    "options": [
+      "Phraseological unit",
+      "Collocation",
+      "Set word-group",
+      "Phrase group"
+    ],
+    "correct": "Phraseological unit"
+  },
+  {
+    "q": "What is the basis of the traditional and oldest principle for classifying phraseological unit?",
+    "options": [
+      "It is based on their original content",
+      "It is based on their associations",
+      "It is based on their linguistic characteristics",
+      "It is based on the semantic principle"
+    ],
+    "correct": "It is based on their original content"
+  },
+  {
+    "q": "How do we call the process of development of a new meaning?",
+    "options": [
+      "We term it \"transference\"",
+      "We term it \"semantic process\"",
+      "We term it \"association\"",
+      "We term it \"slang\""
+    ],
+    "correct": "We term it \"transference\""
+  },
+  {
+    "q": "Contracted words are produced in two different ways: the first is to make a new word from a syllable of the original word. What is the second?",
+    "options": [
+      "to make a new word from the initial letters of a word group",
+      "to make a new word from the root of the original word",
+      "to make a new word from the last letters of a word-group",
+      "to make a new word from the stem of the word"
+    ],
+    "correct": "to make a new word from the initial letters of a word group"
+  },
+  {
+    "q": "What do we understand by etymological doublets?",
+    "options": [
+      "These are words which originated from the same source, but differ in phonemic shape and in meaning",
+      "Doublets are the words with the same source but different in phonemic shape",
+      "These are words which have the same meaning but differ in phonemic shape",
+      "Such words which are the same in phonemic shape but differ in meaning"
+    ],
+    "correct": "These are words which originated from the same source, but differ in phonemic shape and in meaning"
+  },
+  {
+    "q": "There are three types of synonyms: ideographic, stylistic and absolute. What is a stylistic type?",
+    "options": [
+      "It differs in stylistic characteristics",
+      "It coincides in all their shades of meaning",
+      "It has the same concept but differs in meaning",
+      "It has the same stylistic characteristics"
+    ],
+    "correct": "It differs in stylistic characteristics"
+  },
+  {
+    "q": "Can we define the language spoken in the USA as an American language?",
+    "options": [
+      "===",
+      "We define it as a regional variety of the English language",
+      "We define it as an American language",
+      "We define it as one of the dialects of the English language",
+      "We define it as an independent language"
+    ],
+    "correct": "We define it as a regional variety of the English language"
+  },
+  {
+    "q": "To which parts of speech do most antonyms belong?",
+    "options": [
+      "They mostly belong to adjectives",
+      "They mostly belong to verbs",
+      "They mostly belong to nouns",
+      "They mostly belong to adverbs"
+    ],
+    "correct": "They mostly belong to adjectives"
+  },
+  {
+    "q": "What is the general tendency with the English vocabulary at the modern stage of its history?",
+    "options": [
+      "To increase the total number of its meanings",
+      "To involve the appearance of its new meanings",
+      "To develop the semantic structure of a word",
+      "To narrow the total number of its meanings"
+    ],
+    "correct": "To increase the total number of its meanings"
+  },
+  {
+    "q": "What are syntagmatic relationships based on?",
+    "options": [
+      "They are based on the linear character of speech",
+      "They are based on the basis of its grammar structure",
+      "They are based on the basis of its morphological structure",
+      "They are based on the basis of its typical meaning"
+    ],
+    "correct": "They are based on the linear character of speech"
+  },
+  {
+    "q": "Explain the external structure of the word",
+    "options": [
+      "It is morphological structure of the word",
+      "It is meaning of the word",
+      "It is the word stock",
+      "It is the origin of the word"
+    ],
+    "correct": "It is morphological structure of the word"
+  },
+  {
+    "q": "Find the compound words (*diachronically*)",
+    "options": [
+      "childhood, kingdom",
+      "friendly, boyfriend",
+      "undone, fun",
+      "wisdom, gardener"
+    ],
+    "correct": "childhood, kingdom"
+  },
+  {
+    "q": "What is the difference between synchronic and diachronic study of word-formation?",
+    "options": [
+      "the synchronic word-formation studies the present day system of formatting words types while the diachronic studies the history of word-formation .",
+      "the synchronic word-formation studies the history of  wordformation while the diachronic studies the present day system of formatting words types",
+      "There is no difference between them",
+      "the synchronic word-formation studies only affixation and the diachronic studies secondary ways of word-formation."
+    ],
+    "correct": "the synchronic word-formation studies the present day system of formatting words types while the diachronic studies the history of word-formation ."
+  },
+  {
+    "q": "Synonyms are …",
+    "options": [
+      "words different in their outer aspects, but identical or similar in their inner aspects",
+      "words belonging to the same part of speech, identical in style, expressing contrary or contradictory notions",
+      "words different in meaning but identical in sound or spelling, or both in sound and spelling",
+      "words belonging to the same part of speech, identical in style, expressing contrary or contradictory notions"
+    ],
+    "correct": "words different in their outer aspects, but identical or similar in their inner aspects"
+  },
+  {
+    "q": "What does lexicology study?",
+    "options": [
+      "A. Sentence structure",
+      "B. Speech sounds",
+      "C. Vocabulary and lexical units of a language",
+      "D. Intonation patterns",
+      "E. Writing systems"
+    ],
+    "correct": "C. Vocabulary and lexical units of a language"
+  },
+  {
+    "q": "The term lexicology is derived from Greek words meaning:",
+    "options": [
+      "A. Sound and structure",
+      "B. Language and speech",
+      "C. Word and science",
+      "D. Form and meaning",
+      "E. Grammar and logic"
+    ],
+    "correct": "C. Word and science"
+  },
+  {
+    "q": "Which of the following is considered the basic nominative unit of language?",
+    "options": [
+      "A. Sentence",
+      "B. Sound",
+      "C. Morpheme",
+      "D. Word",
+      "E. Phrase"
+    ],
+    "correct": "D. Word"
+  },
+  {
+    "q": "Which of the following is NOT a lexical unit?",
+    "options": [
+      "A. Word",
+      "B. Phrase",
+      "C. Phraseological unit",
+      "D. Morpheme",
+      "E. Fixed expression"
+    ],
+    "correct": "D. Morpheme"
+  },
+  {
+    "q": "What is a morpheme?",
+    "options": [
+      "A. A grammatical category",
+      "B. The smallest meaningful unit of a word",
+      "C. A group of words",
+      "D. A sound pattern",
+      "E. A sentence element"
+    ],
+    "correct": "B. The smallest meaningful unit of a word"
+  },
+  {
+    "q": "Which morpheme carries the core lexical meaning of a word?",
+    "options": [
+      "A. Prefix",
+      "B. Suffix",
+      "C. Inflectional affix",
+      "D. Root morpheme",
+      "E. Stem"
+    ],
+    "correct": "D. Root morpheme"
+  },
+  {
+    "q": "Which affix forms new words and may change the part of speech?",
+    "options": [
+      "A. Inflectional suffix",
+      "B. Grammatical marker",
+      "C. Derivational affix",
+      "D. Case ending",
+      "E. Tense marker"
+    ],
+    "correct": "C. Derivational affix"
+  },
+  {
+    "q": "Which example illustrates word inflection?",
+    "options": [
+      "A. happy → happiness",
+      "B. teach → teacher",
+      "C. write → writer",
+      "D. book → books",
+      "E. kind → unkind"
+    ],
+    "correct": "D. book → books"
+  },
+  {
+    "q": "What does the stem of a word consist of?",
+    "options": [
+      "A. Only grammatical endings",
+      "B. Root and inflectional affixes",
+      "C. Root and derivational affixes",
+      "D. Prefixes only",
+      "E. Suffixes only"
+    ],
+    "correct": "C. Root and derivational affixes"
+  },
+  {
+    "q": "Which statement correctly distinguishes word formation from word inflection?",
+    "options": [
+      "A. Both create new lexical units",
+      "B. Word formation changes pronunciation only",
+      "C. Word inflection creates new words",
+      "D. Word formation creates new words, while word inflection forms grammatical variants",
+      "E. There is no difference between them"
+    ],
+    "correct": "D. Word formation creates new words, while word inflection forms grammatical variants"
+  },
+  {
+    "q": "What is word formation in lexicology?",
+    "options": [
+      "A. The study of sentence structure",
+      "B. The process of changing pronunciation",
+      "C. The process of creating new words from existing ones",
+      "D. The analysis of word meanings only",
+      "E. The classification of sounds"
+    ],
+    "correct": "C. The process of creating new words from existing ones"
+  },
+  {
+    "q": "Which part of the word carries the main lexical meaning?",
+    "options": [
+      "A. Prefix",
+      "B. Suffix",
+      "C. Affix",
+      "D. Root",
+      "E. Ending"
+    ],
+    "correct": "D. Root"
+  },
+  {
+    "q": "Which affix creates a new lexical unit?",
+    "options": [
+      "A. Inflectional suffix",
+      "B. Form-building suffix",
+      "C. Word-forming affix",
+      "D. Grammatical ending",
+      "E. Functional morpheme"
+    ],
+    "correct": "C. Word-forming affix"
+  },
+  {
+    "q": "Which example illustrates conversion?",
+    "options": [
+      "A. Happiness → unhappy",
+      "B. Laboratory → lab",
+      "C. Email (noun) → to email (verb)",
+      "D. Television → TV",
+      "E. Black + bird → blackbird"
+    ],
+    "correct": "C. Email (noun) → to email (verb)"
+  },
+  {
+    "q": "What is abbreviation?",
+    "options": [
+      "A. Combining two roots",
+      "B. Shortening a word or phrase",
+      "C. Adding a suffix",
+      "D. Changing word meaning",
+      "E. Borrowing from another language"
+    ],
+    "correct": "B. Shortening a word or phrase"
+  },
+  {
+    "q": "Which process creates a new word through sound loss or addition?",
+    "options": [
+      "A. Conversion",
+      "B. Semantic method",
+      "C. Phonetic change",
+      "D. Compounding",
+      "E. Affixation"
+    ],
+    "correct": "C. Phonetic change"
+  },
+  {
+    "q": "What is a neologism?",
+    "options": [
+      "A. An archaic word",
+      "B. A borrowed grammatical form",
+      "C. A newly introduced word in a language",
+      "D. A word with opposite meaning",
+      "E. A compound word"
+    ],
+    "correct": "C. A newly introduced word in a language"
+  },
+  {
+    "q": "Which term refers to the literal, objective meaning of a word?",
+    "options": [
+      "A. Connotation",
+      "B. Significate",
+      "C. Denotate",
+      "D. Metaphor",
+      "E. Stylistic meaning"
+    ],
+    "correct": "C. Denotate"
+  },
+  {
+    "q": "Which semantic process is illustrated in the head of the company?",
+    "options": [
+      "A. Metonymy",
+      "B. Synecdoche",
+      "C. Metaphor",
+      "D. Homonymy",
+      "E. Conversion"
+    ],
+    "correct": "C. Metaphor"
+  },
+  {
+    "q": "What does phraseology primarily study in linguistics?",
+    "options": [
+      "A. Sentence patterns",
+      "B. Stable word combinations",
+      "C. Sound changes",
+      "D. Word pronunciation",
+      "E. Grammatical categories"
+    ],
+    "correct": "B. Stable word combinations"
+  },
+  {
+    "q": "Which feature best characterizes an idiom?",
+    "options": [
+      "A. Literal meaning",
+      "B. Free word order",
+      "C. Grammatical transparency",
+      "D. Meaning not predictable from components",
+      "E. Scientific usage"
+    ],
+    "correct": "D. Meaning not predictable from components"
+  },
+  {
+    "q": "Which of the following is a proverb?",
+    "options": [
+      "A. The early bird catches the worm",
+      "B. Make a decision",
+      "C. Strong coffee",
+      "D. At the end of the day",
+      "E. Red tape"
+    ],
+    "correct": "A. The early bird catches the worm"
+  },
+  {
+    "q": "Which phrase is an example of a cliché?",
+    "options": [
+      "A. Spill the beans",
+      "B. Bread and butter",
+      "C. Heavy rain",
+      "D. Break the ice",
+      "E. At the end of the day"
+    ],
+    "correct": "E. At the end of the day"
+  },
+  {
+    "q": "Which word combination is a collocation?",
+    "options": [
+      "A. Kick the bucket",
+      "B. Once in a blue moon",
+      "C. Make a decision",
+      "D. Carry coals to Newcastle",
+      "E. Safe and sound"
+    ],
+    "correct": "C. Make a decision"
+  },
+  {
+    "q": "What do phraseological binomials usually consist of?",
+    "options": [
+      "A. Three related words",
+      "B. A verb and an object",
+      "C. A root and an affix",
+      "D. Two coordinated words with fixed order",
+      "E. A borrowed lexical item"
+    ],
+    "correct": "D. Two coordinated words with fixed order"
+  },
+  {
+    "q": "Which expression reflects national and cultural specificity in English?",
+    "options": [
+      "A. Heavy rain",
+      "B. Laboratory",
+      "C. Carry coals to Newcastle",
+      "D. Advertisement",
+      "E. Biology"
+    ],
+    "correct": "C. Carry coals to Newcastle"
+  },
+  {
+    "q": "What does etymology study?",
+    "options": [
+      "A. Sentence meaning",
+      "B. Stylistic devices",
+      "C. Word frequency",
+      "D. Word pronunciation",
+      "E. The origin and historical development of words"
+    ],
+    "correct": "E. The origin and historical development of words"
+  },
+  {
+    "q": "Which word is of Scandinavian origin?",
+    "options": [
+      "A. Judge",
+      "B. Sky",
+      "C. Philosophy",
+      "D. Animal",
+      "E. Religion"
+    ],
+    "correct": "B. Sky"
+  },
+  {
+    "q": "Which pair represents etymological doublets?",
+    "options": [
+      "A. Strong – powerful",
+      "B. House – home",
+      "C. Eat – drink",
+      "D. Shirt – skirt",
+      "E. Bread – butter"
+    ],
+    "correct": "D. Shirt – skirt"
+  },
+  {
+    "q": "What is the denotative meaning of a word?",
+    "options": [
+      "A. Its emotional or stylistic nuance",
+      "B. Its core, objective meaning",
+      "C. A metaphorical meaning",
+      "D. A borrowed meaning",
+      "E. A homonym"
+    ],
+    "correct": "B. Its core, objective meaning"
+  },
+  {
+    "q": "Which of the following illustrates connotative meaning?",
+    "options": [
+      "A. Dog = domesticated animal",
+      "B. Chair = furniture for sitting",
+      "C. Dog = loyalty or insult depending on context",
+      "D. Book = set of pages",
+      "E. Foot = body part"
+    ],
+    "correct": "C. Dog = loyalty or insult depending on context"
+  },
+  {
+    "q": "Which of these words demonstrates lexical polysemy?",
+    "options": [
+      "A. Foot (body part; base of a mountain; unit of measurement)",
+      "B. Run (verb only)",
+      "C. Chair (furniture only)",
+      "D. Dog (single meaning)",
+      "E. Sky (only one meaning)"
+    ],
+    "correct": "A. Foot (body part; base of a mountain; unit of measurement)"
+  },
+  {
+    "q": "Which pair of words represents homonyms, not polysemy?",
+    "options": [
+      "A. Head (body part; leader)",
+      "B. Foot (body part; measurement)",
+      "C. Bat (animal; sports equipment)",
+      "D. Light (illumination; not heavy)",
+      "E. Star (celestial body; celebrity)"
+    ],
+    "correct": "C. Bat (animal; sports equipment)"
+  },
+  {
+    "q": "What is an example of metaphorical polysemy?",
+    "options": [
+      "A. Head of the table",
+      "B. Bright star → bright student",
+      "C. Bank (river side)",
+      "D. Foot of the mountain",
+      "E. Run in the stocking"
+    ],
+    "correct": "B. Bright star → bright student"
+  },
+  {
+    "q": "Which of the following is an example of metonymy?",
+    "options": [
+      "A. The crown = monarchy",
+      "B. Dog = domesticated animal",
+      "C. Chair = furniture",
+      "D. Break the ice = initiate social interaction",
+      "E. Star = celestial body"
+    ],
+    "correct": "A. The crown = monarchy"
+  },
+  {
+    "q": "Which word demonstrates grammatical polysemy?",
+    "options": [
+      "A. Run (I run daily / a run in the stocking)",
+      "B. Dog (domesticated animal only)",
+      "C. Star (celestial body only)",
+      "D. Chair (furniture only)",
+      "E. Sky (celestial dome only)"
+    ],
+    "correct": "A. Run (I run daily / a run in the stocking)"
+  },
+  {
+    "q": "Which example shows connotative emotional meaning?",
+    "options": [
+      "A. Home = place where someone lives",
+      "B. Home = warmth, family, and comfort",
+      "C. Dog = domesticated animal",
+      "D. Chair = furniture",
+      "E. Foot = measurement unit"
+    ],
+    "correct": "B. Home = warmth, family, and comfort"
+  },
+  {
+    "q": "Which of the following is an example of synecdoche?",
+    "options": [
+      "A. “All hands on deck” (hands represent sailors)",
+      "B. Bright student (metaphor)",
+      "C. Foot of the mountain (literal)",
+      "D. Dog = loyalty (connotation)",
+      "E. Bank = financial institution"
+    ],
+    "correct": "A. “All hands on deck” (hands represent sailors)"
+  },
+  {
+    "q": "Which of the following illustrates polysemy caused by historical or functional shifts?",
+    "options": [
+      "A. Foot (body part; base of mountain; measurement unit)",
+      "B. Chair (furniture only)",
+      "C. Dog (single meaning)",
+      "D. Sky (single meaning)",
+      "E. Apple (fruit only)"
+    ],
+    "correct": "A. Foot (body part; base of mountain; measurement unit)"
+  },
+  {
+    "q": "What is the main focus of lexicography?",
+    "options": [
+      "A. Translation theory",
+      "B. The compilation and analysis of dictionaries",
+      "C. The study of phonetics",
+      "D. Literary criticism",
+      "E. Syntax and grammar"
+    ],
+    "correct": "B. The compilation and analysis of dictionaries"
+  },
+  {
+    "q": "Which dictionary type lists words with similar meanings?",
+    "options": [
+      "A. Explanatory dictionary",
+      "B. Translation dictionary",
+      "C. Ideographic dictionary",
+      "D. Synonym dictionary",
+      "E. Phraseological dictionary"
+    ],
+    "correct": "D. Synonym dictionary"
+  },
+  {
+    "q": "Which dictionary type focuses on the historical origin of words?",
+    "options": [
+      "A. Etymological dictionary",
+      "B. Translation dictionary",
+      "C. Explanatory dictionary",
+      "D. Phraseological dictionary",
+      "E. Bilingual dictionary"
+    ],
+    "correct": "A. Etymological dictionary"
+  },
+  {
+    "q": "Which dictionary type provides definitions in the same language?",
+    "options": [
+      "A. Translation dictionary",
+      "B. Synonym dictionary",
+      "C. Ideographic dictionary",
+      "D. Explanatory dictionary",
+      "E. Neologism dictionary"
+    ],
+    "correct": "D. Explanatory dictionary"
+  },
+  {
+    "q": "Which dictionary organizes words by concepts rather than alphabetically?",
+    "options": [
+      "A. Phraseological dictionary",
+      "B. Translation dictionary",
+      "C. Ideographic dictionary",
+      "D. Synonym dictionary",
+      "E. Explanatory dictionary"
+    ],
+    "correct": "C. Ideographic dictionary"
+  },
+  {
+    "q": "What is a key feature of dictionary entries?",
+    "options": [
+      "A. Only headwords and definitions",
+      "B. Only synonyms and antonyms",
+      "C. Only translations",
+      "D. Headword, part of speech, definition, examples, pronunciation",
+      "E. Only etymology"
+    ],
+    "correct": "D. Headword, part of speech, definition, examples, pronunciation"
+  },
+  {
+    "q": "What distinguishes active dictionaries from passive dictionaries?",
+    "options": [
+      "A. Active dictionaries contain archaic or rare words",
+      "B. Active dictionaries are bilingual only",
+      "C. Active dictionaries focus on etymology",
+      "D. Active dictionaries focus on words currently in use",
+      "E. Active dictionaries are limited to online platforms"
+    ],
+    "correct": "E. Active dictionaries are limited to online platforms"
+  },
+  {
+    "q": "Which dictionary type lists idioms and fixed expressions?",
+    "options": [
+      "A. Explanatory dictionary",
+      "B. Synonym dictionary",
+      "C. Translation dictionary",
+      "D. Phraseological dictionary",
+      "E. Ideographic dictionary"
+    ],
+    "correct": "A. Explanatory dictionary"
+  },
+  {
+    "q": "Which dictionary is particularly useful for learners translating between languages?",
+    "options": [
+      "A. Explanatory dictionary",
+      "B. Ideographic dictionary",
+      "C. Phraseological dictionary",
+      "D. Translation dictionary",
+      "E. Etymological dictionary"
+    ],
+    "correct": "D. Translation dictionary"
+  },
+  {
+    "q": "What is the role of corpus linguistics in modern lexicography?",
+    "options": [
+      "A. To standardize grammar rules only",
+      "B. To teach phonetics",
+      "C. To prescribe “correct” usage",
+      "D. To analyze authentic language data and usage",
+      "E. To compile literary anthologies"
+    ],
+    "correct": "B. To teach phonetics"
+  },
+  {
+    "q": "What does phraseology study?",
+    "options": [
+      "a) Individual sounds of a language",
+      "b) Stable word combinations with figurative meaning",
+      "c) Sentence structure and syntax",
+      "d) Literal meanings of words only"
+    ],
+    "correct": "b) Stable word combinations with figurative meaning"
+  },
+  {
+    "q": "Which feature best distinguishes phraseological units from free word combinations?",
+    "options": [
+      "a) Grammatical agreement",
+      "b) Word order flexibility",
+      "c) Literal meaning of components",
+      "d) Stability and fixed structure"
+    ],
+    "correct": "d) Stability and fixed structure"
+  },
+  {
+    "q": "Which of the following is an example of a phraseological fusion?",
+    "options": [
+      "a) To kick the bucket",
+      "b) Make a decision",
+      "c) Strong coffee",
+      "d) Heavy rain"
+    ],
+    "correct": "a) To kick the bucket"
+  },
+  {
+    "q": "What type of phraseological unit has a metaphorical meaning motivated by its components?",
+    "options": [
+      "a) Phraseological fusion",
+      "b) Phraseological combination",
+      "c) Free word combination",
+      "d) Phraseological unity"
+    ],
+    "correct": "d) Phraseological unity"
+  },
+  {
+    "q": "Which expression is synonymous with “to be very happy”?",
+    "options": [
+      "a) To lose one’s head",
+      "b) To break one’s word",
+      "c) To be on cloud nine",
+      "d) To turn a blind eye"
+    ],
+    "correct": "c) To be on cloud nine"
+  },
+  {
+    "q": "What is meant by the ready-made usage of phraseological units?",
+    "options": [
+      "a) They are created spontaneously in speech",
+      "b) They are translated word for word",
+      "c) They are reproduced as complete units",
+      "d) They consist only of two words"
+    ],
+    "correct": "c) They are reproduced as complete units"
+  },
+  {
+    "q": "Which of the following is an antonymous pair of phraseological units?",
+    "options": [
+      "a) To be over the moon – to be on cloud nine",
+      "b) To keep one’s word – to break one’s word",
+      "c) To kick the bucket – to see the light",
+      "d) To lose one’s head – to burn bridges"
+    ],
+    "correct": "b) To keep one’s word – to break one’s word"
+  },
+  {
+    "q": "Why are phraseological units considered expressive?",
+    "options": [
+      "a) They follow strict grammatical rules",
+      "b) They always have literal meanings",
+      "c) They add emotional and stylistic coloring",
+      "d) They are used only in formal speech"
+    ],
+    "correct": "c) They add emotional and stylistic coloring"
+  },
+  {
+    "q": "Which of the following is an example of a proverb?",
+    "options": [
+      "a) To blow one’s top",
+      "b) Red tape",
+      "c) Heavy traffic",
+      "d) Actions speak louder than words"
+    ],
+    "correct": "d) Actions speak louder than words"
+  },
+  {
+    "q": "What is the main practical value of studying phraseology?",
+    "options": [
+      "a) Memorizing grammatical rules",
+      "b) Improving spelling accuracy",
+      "c) Understanding and using language more naturally",
+      "d) Learning isolated vocabulary items"
+    ],
+    "correct": "c) Understanding and using language more naturally"
+  },
+  {
+    "q": "What does the lexical composition of a language include?",
+    "options": [
+      "a) Only literary and formal words",
+      "b) All words and expressions used by speakers",
+      "c) Only slang and jargon",
+      "d) Only grammatical forms"
+    ],
+    "correct": "b) All words and expressions used by speakers"
+  },
+  {
+    "q": "What is the main function of jargon?",
+    "options": [
+      "a) To replace the literary language",
+      "b) To express emotions and humor",
+      "c) To simplify grammar rules",
+      "d) To facilitate communication within a specific group"
+    ],
+    "correct": "d) To facilitate communication within a specific group"
+  },
+  {
+    "q": "Which of the following is an example of jargon?",
+    "options": [
+      "a) Professional IT terms like “server” and “login”",
+      "b) Everyday words such as “mother” and “water”",
+      "c) Proverbs and sayings",
+      "d) Neutral literary vocabulary"
+    ],
+    "correct": "a) Professional IT terms like “server” and “login”"
+  },
+  {
+    "q": "Which feature best characterizes slang?",
+    "options": [
+      "a) It is used only in formal writing",
+      "b) It remains unchanged for a long time",
+      "c) It is emotionally expressive and informal",
+      "d) It is restricted to professional fields"
+    ],
+    "correct": "c) It is emotionally expressive and informal"
+  },
+  {
+    "q": "Which layer of vocabulary is the most stable over time?",
+    "options": [
+      "a) Slang vocabulary",
+      "b) Jargon vocabulary",
+      "c) Core (basic) vocabulary",
+      "d) Youth expressions"
+    ],
+    "correct": "c) Core (basic) vocabulary"
+  },
+  {
+    "q": "How does slang usually enter the language?",
+    "options": [
+      "a) Through official documents",
+      "b) Through academic publications",
+      "c) Through youth culture and informal speech",
+      "d) Through grammatical rules"
+    ],
+    "correct": "c) Through youth culture and informal speech"
+  },
+  {
+    "q": "What is a key difference between jargon and slang?",
+    "options": [
+      "a) Jargon is informal and emotional, slang is technical",
+      "b) Slang is limited to professions",
+      "c) Jargon is profession-related, slang is group- or youth-based",
+      "d) They have no difference"
+    ],
+    "correct": "c) Jargon is profession-related, slang is group- or youth-based"
+  },
+  {
+    "q": "Which of the following can happen to slang words over time?",
+    "options": [
+      "a) They always disappear completely",
+      "b) They can enter the standard language",
+      "c) They never change their meaning",
+      "d) They become grammatical forms"
+    ],
+    "correct": "b) They can enter the standard language"
+  },
+  {
+    "q": "Why are jargon and slang important for lexical change?",
+    "options": [
+      "a) They weaken the language",
+      "b) They replace grammar rules",
+      "c) They reflect social and cultural changes",
+      "d) They reduce vocabulary size"
+    ],
+    "correct": "c) They reflect social and cultural changes"
+  },
+  {
+    "q": ".What do jargon and slang often reflect?",
+    "options": [
+      "a) Only historical facts",
+      "b) Mathematical accuracy",
+      "c) Cultural identity and group attitudes",
+      "d) Official norms of the language"
+    ],
+    "correct": "c) Cultural identity and group attitudes"
+  },
+  {
+    "q": "What is the main characteristic of formal vocabulary in English?",
+    "options": [
+      "a) It is used mainly in casual conversations",
+      "b) It is precise, objective, and used in official or academic contexts",
+      "c) It always contains slang expressions",
+      "d) It is limited to borrowed words"
+    ],
+    "correct": "b) It is precise, objective, and used in official or academic contexts"
+  },
+  {
+    "q": "Which context is most appropriate for informal vocabulary?",
+    "options": [
+      "a) Academic research paper",
+      "b) Legal contract",
+      "c) Official report",
+      "d) Casual conversation with friends"
+    ],
+    "correct": "d) Casual conversation with friends"
+  },
+  {
+    "q": "Which of the following is an example of professional jargon in IT?",
+    "options": [
+      "a) Server, algorithm, debugging",
+      "b) Happy, good, nice",
+      "c) Coffee, café, menu",
+      "d) Thou, anon, hither"
+    ],
+    "correct": "a) Server, algorithm, debugging"
+  },
+  {
+    "q": "What is a key feature of technical vocabulary?",
+    "options": [
+      "a) Expressive and emotional",
+      "b) Used mainly in casual speech",
+      "c) Difficult to understand in any context",
+      "d) Precise and specialized for a specific field"
+    ],
+    "correct": "d) Precise and specialized for a specific field"
+  },
+  {
+    "q": "Which of the following is an example of an obsolete English word?",
+    "options": [
+      "a) Server",
+      "b) Algorithm",
+      "c) Thou",
+      "d) Café"
+    ],
+    "correct": "c) Thou"
+  },
+  {
+    "q": "Which borrowed word comes from French?",
+    "options": [
+      "a) Biology",
+      "b) Algebra",
+      "c) Café",
+      "d) Democracy"
+    ],
+    "correct": "c) Café"
+  },
+  {
+    "q": "How do slang and informal words affect the English language over time?",
+    "options": [
+      "a) They never change and remain informal",
+      "b) They replace technical terms",
+      "c) They may become part of standard vocabulary",
+      "d) They are only used in dictionaries"
+    ],
+    "correct": "c) They may become part of standard vocabulary"
+  },
+  {
+    "q": "Which of the following is an example of a borrowed word from Greek?",
+    "options": [
+      "a) Croissant",
+      "b) Democracy",
+      "c) Menu",
+      "d) Zero"
+    ],
+    "correct": "b) Democracy"
+  },
+  {
+    "q": "Why is understanding the difference between formal and informal vocabulary important?",
+    "options": [
+      "a) It is only useful for translation exercises",
+      "b) It ensures accurate spelling",
+      "c) It helps avoid slang in any context",
+      "d) It allows speakers to choose words appropriate to social and professional contexts"
+    ],
+    "correct": "d) It allows speakers to choose words appropriate to social and professional contexts"
+  },
+  {
+    "q": "Which of the following statements is correct about jargon and technical terms?",
+    "options": [
+      "a) They are emotionally expressive and informal",
+      "b) They are obsolete words no longer in use",
+      "c) They are borrowed words used in casual speech",
+      "d) They provide precision and efficiency in professional fields"
+    ],
+    "correct": "d) They provide precision and efficiency in professional fields"
+  },
+  {
+    "q": "What is the main goal of comparative lexicology?",
+    "options": [
+      "a) To learn grammar rules of English",
+      "b) To identify similarities and differences between vocabularies of two or more languages",
+      "c) To memorize word lists without context",
+      "d) To study phonetics only"
+    ],
+    "correct": "b) To identify similarities and differences between vocabularies of two or more languages"
+  },
+  {
+    "q": "Which of the following is an example of a borrowed word in both English and Uzbek?",
+    "options": [
+      "a) Mother → Ona",
+      "b) Tree → Daraxt",
+      "c) River → Daryo",
+      "d) Algebra → Algebra"
+    ],
+    "correct": "d) Algebra → Algebra"
+  },
+  {
+    "q": "Which English word corresponds directly to the Uzbek o‘qituvchi?",
+    "options": [
+      "a) Teacher",
+      "b) Student",
+      "c) School",
+      "d) Lesson"
+    ],
+    "correct": "a) Teacher"
+  },
+  {
+    "q": "What is a lexical gap?",
+    "options": [
+      "a) A synonym in both languages",
+      "b) A loanword borrowed from another language",
+      "c) A word with identical spelling",
+      "d) A concept in one language that has no exact equivalent in another"
+    ],
+    "correct": "d) A concept in one language that has no exact equivalent in another"
+  },
+  {
+    "q": "How would you translate the English idiom “break the ice” into Uzbek?",
+    "options": [
+      "a) Buzish muzini",
+      "b) Suhbat boshlash",
+      "c) Muzni sindirish",
+      "d) Muz ustida yurish"
+    ],
+    "correct": "c) Muzni sindirish"
+  },
+  {
+    "q": "Why is comparative lexicology important for translation?",
+    "options": [
+      "a) It focuses only on sentence structure",
+      "b) It helps memorize all words in both languages",
+      "c) It eliminates all idioms in translation",
+      "d) It enables translators to choose accurate equivalents and adapt cultural references"
+    ],
+    "correct": "d) It enables translators to choose accurate equivalents and adapt cultural references"
+  },
+  {
+    "q": "Which of the following is an example of polysemy requiring careful comparison?",
+    "options": [
+      "a) Computer → Kompyuter",
+      "b) Bank (financial institution / riverbank)",
+      "c) Teacher → O‘qituvchi",
+      "d) Coffee → Qahva"
+    ],
+    "correct": "b) Bank (financial institution / riverbank)"
+  },
+  {
+    "q": "What is a key challenge in comparative lexicology?",
+    "options": [
+      "a) Translating all words literally",
+      "b) Using only loanwords",
+      "c) Ignoring borrowed words",
+      "d) Dealing with idioms, cultural differences, and lexical gaps"
+    ],
+    "correct": "d) Dealing with idioms, cultural differences, and lexical gaps"
+  },
+  {
+    "q": "Which term refers to words with shared historical origin across languages?",
+    "options": [
+      "a) Borrowings",
+      "b) Lexical gaps",
+      "c) Cognates",
+      "d) Idioms"
+    ],
+    "correct": "c) Cognates"
+  },
+  {
+    "q": "Which is a practical application of comparative lexicology?",
+    "options": [
+      "a) Writing poetry exclusively in one language",
+      "b) Memorizing all dictionaries",
+      "c) Translating without context",
+      "d) Teaching language by highlighting similarities and differences, and improving intercultural communication"
+    ],
+    "correct": "d) Teaching language by highlighting similarities and differences, and improving intercultural communication"
+  },
+  {
+    "q": "What is the main challenge in translating idioms?",
+    "options": [
+      "a) Translating long sentences",
+      "b) Preserving meaning, style, and cultural context",
+      "c) Memorizing word lists",
+      "d) Translating only nouns"
+    ],
+    "correct": "b) Preserving meaning, style, and cultural context"
+  },
+  {
+    "q": "The English idiom “kick the bucket” is best translated into Uzbek as:",
+    "options": [
+      "a) Muzni sindirish",
+      "b) Baxtli tasodif",
+      "c) Taslim bo‘lmoq",
+      "d) Jon berish"
+    ],
+    "correct": "d) Jon berish"
+  },
+  {
+    "q": "Which translation strategy replaces a source idiom with a culturally equivalent idiom in the target language?",
+    "options": [
+      "a) Equivalent idiomatic translation",
+      "b) Literal translation",
+      "c) Borrowing",
+      "d) Paraphrasing"
+    ],
+    "correct": "a) Equivalent idiomatic translation"
+  },
+  {
+    "q": "What is a semantic gap in translation?",
+    "options": [
+      "a) A word with multiple meanings in one language",
+      "b) An idiom with a direct equivalent",
+      "c) A borrowed word",
+      "d) A concept in the source language that has no exact equivalent in the target language"
+    ],
+    "correct": "d) A concept in the source language that has no exact equivalent in the target language"
+  },
+  {
+    "q": "How would you translate the English idiom “piece of cake” into Uzbek?",
+    "options": [
+      "a) Muzni sindirish",
+      "b) Og‘riqni sabr bilan ko‘tarmoq",
+      "c) Oson ish",
+      "d) Sirni oshkor qilish"
+    ],
+    "correct": "c) Oson ish"
+  },
+  {
+    "q": "Literal translation is appropriate when:",
+    "options": [
+      "a) Idioms are highly figurative",
+      "b) Cultural context is important",
+      "c) Words are transparent and culturally neutral",
+      "d) There is no equivalent in the target language"
+    ],
+    "correct": "c) Words are transparent and culturally neutral"
+  },
+  {
+    "q": "Which of the following is an example of paraphrasing in idiomatic translation?",
+    "options": [
+      "a) Throw in the towel → taslim bo‘lmoq",
+      "b) It’s raining cats and dogs → Yomg‘ir yog‘moqda",
+      "c) Break the ice → Muzni sindirish",
+      "d) Serendipity → baxtli tasodif"
+    ],
+    "correct": "d) Serendipity → baxtli tasodif"
+  },
+  {
+    "q": "Why is cultural appropriateness important in idiomatic translation?",
+    "options": [
+      "a) To simplify grammar",
+      "b) To reduce word count",
+      "c) To make the text longer",
+      "d) To ensure understanding and avoid misinterpretation"
+    ],
+    "correct": "d) To ensure understanding and avoid misinterpretation"
+  },
+  {
+    "q": "Which of the following English idioms is mentioned in the text as having a clear Uzbek equivalent?",
+    "options": [
+      "a) Kick the bucket",
+      "b) Piece of cake",
+      "c) Break the ice",
+      "d) Spill the beans"
+    ],
+    "correct": "c) Break the ice"
+  },
+  {
+    "q": "Which is a practical application of idiomatic translation?",
+    "options": [
+      "a) Memorizing every idiom in both languages",
+      "b) Using literal word-for-word translation for all texts",
+      "c) Ignoring cultural context",
+      "d) Teaching, literary translation, media, and intercultural communication"
+    ],
+    "correct": "d) Teaching, literary translation, media, and intercultural communication"
+  },
+  {
+    "q": "Word formation refers to:",
+    "options": [
+      "a) The study of sentence structure",
+      "b) The process of creating new lexical units based on existing words or morphemes",
+      "c) Memorizing irregular verbs",
+      "d) Translating texts between languages"
+    ],
+    "correct": "b) The process of creating new lexical units based on existing words or morphemes"
+  },
+  {
+    "q": "Which of the following is an example of prefixation in English?",
+    "options": [
+      "a) Teacher → teach",
+      "b) Sad → sadness",
+      "c) Walk → walker",
+      "d) Do → redo"
+    ],
+    "correct": "d) Do → redo"
+  },
+  {
+    "q": "Which suffix is considered productive in contemporary English for forming agent nouns?",
+    "options": [
+      "a) -er (e.g., driver, blogger)",
+      "b) -th (e.g., length)",
+      "c) -dom (e.g., kingdom)",
+      "d) -ful (e.g., careful)"
+    ],
+    "correct": "a) -er (e.g., driver, blogger)"
+  },
+  {
+    "q": "Non-productive affixes are characterized by:",
+    "options": [
+      "a) Actively forming new words",
+      "b) Being frequently used in media language",
+      "c) Always changing grammatical category",
+      "d) Appearing mainly in historically established words"
+    ],
+    "correct": "d) Appearing mainly in historically established words"
+  },
+  {
+    "q": "Conversion (zero derivation) is:",
+    "options": [
+      "a) Adding a prefix to form a new word",
+      "b) Adding a suffix to form a new word",
+      "c) Changing the grammatical category of a word without altering its form",
+      "d) Borrowing words from another language"
+    ],
+    "correct": "c) Changing the grammatical category of a word without altering its form"
+  },
+  {
+    "q": "Which is an example of noun-to-verb conversion?",
+    "options": [
+      "a) To phone",
+      "b) Email → email",
+      "c) Walk → walked",
+      "d) Teacher → teaching"
+    ],
+    "correct": "a) To phone"
+  },
+  {
+    "q": "The functional significance of conversion is primarily:",
+    "options": [
+      "a) To make words longer",
+      "b) To create completely new forms",
+      "c) To reuse existing words in new grammatical roles efficiently",
+      "d) To maintain historical spelling"
+    ],
+    "correct": "c) To reuse existing words in new grammatical roles efficiently"
+  },
+  {
+    "q": "Which of the following is an example of suffixation that changes an adjective to a noun?",
+    "options": [
+      "a) Run → running",
+      "b) Kind → kindness",
+      "c) Teach → teacher",
+      "d) Do → undo"
+    ],
+    "correct": "b) Kind → kindness"
+  },
+  {
+    "q": "Why is word formation important for linguistics students?",
+    "options": [
+      "a) It simplifies grammar exercises",
+      "b) It helps memorize all words in a dictionary",
+      "c) It is only useful for historical linguistics",
+      "d) It supports vocabulary acquisition, translation, and linguistic analysis"
+    ],
+    "correct": "d) It supports vocabulary acquisition, translation, and linguistic analysis"
+  },
+  {
+    "q": "Which statement is true about English word formation?",
+    "options": [
+      "a) Affixation and conversion illustrate the static nature of the language",
+      "b) Conversion is rare in English",
+      "c) Word formation has no impact on semantics or syntax",
+      "d) Affixation and conversion allow English to adapt to social and cultural changes"
+    ],
+    "correct": "d) Affixation and conversion allow English to adapt to social and cultural changes"
+  },
+  {
+    "q": "What is the main purpose of abbreviations in English?",
+    "options": [
+      "a) To create new grammatical categories",
+      "b) To shorten words or phrases without losing core meaning",
+      "c) To make sentences more complex",
+      "d) To replace idioms with slang"
+    ],
+    "correct": "b) To shorten words or phrases without losing core meaning"
+  },
+  {
+    "q": "Which of the following is an example of an initialism?",
+    "options": [
+      "a) Brunch",
+      "b) Laser",
+      "c) Phone",
+      "d) UN"
+    ],
+    "correct": "d) UN"
+  },
+  {
+    "q": "An acronym is different from an initialism because:",
+    "options": [
+      "a) It is pronounced as a word, not letter by letter",
+      "B) It is always informal",
+      "c) It is only used in spoken language",
+      "d) It always comes from Latin"
+    ],
+    "correct": "a) It is pronounced as a word, not letter by letter"
+  },
+  {
+    "q": "Which of the following is an example of a clipped word?",
+    "options": [
+      "a) NATO",
+      "b) RADAR",
+      "c) Smog",
+      "d) Exam"
+    ],
+    "correct": "d) Exam"
+  },
+  {
+    "q": "Which is an example of a blend?",
+    "options": [
+      "a) I’ll",
+      "b) Dr.",
+      "c) Brunch",
+      "d) et al."
+    ],
+    "correct": "c) Brunch"
+  },
+  {
+    "q": "Contracted forms in English are primarily used to:",
+    "options": [
+      "a) Make formal writing clearer",
+      "b) Signal historical usage",
+      "c) Replace acronyms",
+      "d) Indicate informal or conversational style"
+    ],
+    "correct": "d) Indicate informal or conversational style"
+  },
+  {
+    "q": "Graphical abbreviations, such as etc., e.g., and i.e., are:",
+    "options": [
+      "a) Pronounced as they appear",
+      "b) Only used in spoken language",
+      "c) Forms of clipping",
+      "d) Used mainly in written academic or technical texts"
+    ],
+    "correct": "d) Used mainly in written academic or technical texts"
+  },
+  {
+    "q": "Which of the following is an example of stylistic lexical opposition?",
+    "options": [
+      "a) Slim vs. Skinny",
+      "b) Reform vs. Control",
+      "c) Brunch vs. Breakfast",
+      "d) I’ll vs. I will"
+    ],
+    "correct": "a) Slim vs. Skinny"
+  },
+  {
+    "q": "Evaluative lexical opposition is demonstrated in:",
+    "options": [
+      "a) Child vs. kid",
+      "b) Don’t vs. do not",
+      "c) Slim vs. Skinny",
+      "d) PhD vs. Doctor"
+    ],
+    "correct": "c) Slim vs. Skinny"
+  },
+  {
+    "q": "Contextual lexical oppositions are:",
+    "options": [
+      "a) Always universal across all texts",
+      "b) Only relevant for abbreviations",
+      "c) Fixed in meaning",
+      "d) Dependent on specific communicative situations"
+    ],
+    "correct": "d) Dependent on specific communicative situations"
+  },
+  {
+    "q": "What is a phonetic variant in English?",
+    "options": [
+      "a) A word with multiple meanings",
+      "b) A word pronounced differently without changing its meaning",
+      "c) A word spelled differently due to regional differences",
+      "d) A word used only in informal speech"
+    ],
+    "correct": "b) A word pronounced differently without changing its meaning"
+  },
+  {
+    "q": "Which of the following is an orthographic variant?",
+    "options": [
+      "a) Hot – cold",
+      "b) Buy – sell",
+      "c) Affect – effect",
+      "d) Color vs. colour"
+    ],
+    "correct": "d) Color vs. colour"
+  },
+  {
+    "q": "Which is an example of a morphological variant?",
+    "options": [
+      "a) Run, runs, running, ran",
+      "b) Buy – sell",
+      "c) Commence vs. start",
+      "d) Laser vs. radar"
+    ],
+    "correct": "a) Run, runs, running, ran"
+  },
+  {
+    "q": "Semantic variants involve:",
+    "options": [
+      "a) Different grammatical forms of the same word",
+      "b) Words that have similar pronunciation",
+      "c) Words used in legal texts",
+      "d) Shifts in meaning depending on context"
+    ],
+    "correct": "d) Shifts in meaning depending on context"
+  },
+  {
+    "q": "Which pair illustrates paronyms?",
+    "options": [
+      "a) Hot – cold",
+      "b) Buy – sell",
+      "c) Emigrate – immigrate",
+      "d) Run – running"
+    ],
+    "correct": "c) Emigrate – immigrate"
+  },
+  {
+    "q": "Which is an example of antonyms?",
+    "options": [
+      "a) Either – /ˈiːðər/ or /ˈaɪðər/",
+      "b) Affect – effect",
+      "c) House – House of Commons",
+      "d) Accept – reject"
+    ],
+    "correct": "d) Accept – reject"
+  },
+  {
+    "q": "Conversive words are also called:",
+    "options": [
+      "a) Synonyms",
+      "b) Functional styles",
+      "c) Relational antonyms",
+      "d) Neutral lexicon"
+    ],
+    "correct": "c) Relational antonyms"
+  },
+  {
+    "q": "Which of the following is an example of a conversive pair?",
+    "options": [
+      "a) Emigrate – immigrate",
+      "b) Color – colour",
+      "c) Lend – borrow",
+      "d) Brunch – breakfast + lunch"
+    ],
+    "correct": "c) Lend – borrow"
+  },
+  {
+    "q": "Which is an example of formal style vocabulary?",
+    "options": [
+      "a) Kid",
+      "b) Book",
+      "c) Photosynthesis",
+      "d) Commence"
+    ],
+    "correct": "d) Commence"
+  },
+  {
+    "q": "Neutral lexicon refers to:",
+    "options": [
+      "a) Words with strong emotional coloring",
+      "b) Words only used in technical texts",
+      "c) Words used for stylistic effect",
+      "d) Words widely understood without stylistic or emotional coloring"
+    ],
+    "correct": "d) Words widely understood without stylistic or emotional coloring"
+  },
+  {
+    "q": "What is composition (compounding) in English word formation?",
+    "options": [
+      "a) Shortening of words",
+      "b) Joining two or more independent words to form a new lexical unit",
+      "c) Repeating words for emphasis",
+      "d) Imitating sounds"
+    ],
+    "correct": "b) Joining two or more independent words to form a new lexical unit"
+  },
+  {
+    "q": "Which is an example of an exocentric compound?",
+    "options": [
+      "a) Bookstore",
+      "b) Blackboard",
+      "c) Software engineer",
+      "d) Pickpocket"
+    ],
+    "correct": "d) Pickpocket"
+  },
+  {
+    "q": "Initialisms are characterized by:",
+    "options": [
+      "a) Being pronounced letter by letter, e.g., UN, CPU",
+      "b) Being pronounced as full words, e.g., NATO, LASER",
+      "c) Being clipped forms of words",
+      "d) Being used in informal speech only"
+    ],
+    "correct": "a) Being pronounced letter by letter, e.g., UN, CPU"
+  },
+  {
+    "q": "Which of the following is a blended word?",
+    "options": [
+      "a) Tick-tock",
+      "b) Super-duper",
+      "c) Motel (motor + hotel)",
+      "d) Defrost"
+    ],
+    "correct": "c) Motel (motor + hotel)"
+  },
+  {
+    "q": "Reversive formation indicates:",
+    "options": [
+      "a) Creation of a compound word",
+      "b) Phonological reduction of a word",
+      "c) An action opposite to or reversing an existing action",
+      "d) Imitation of natural sounds"
+    ],
+    "correct": "c) An action opposite to or reversing an existing action"
+  },
+  {
+    "q": "Which is an example of onomatopoeia?",
+    "options": [
+      "a) Software engineer",
+      "b) Click-clack",
+      "c) Defrost",
+      "d) PhD"
+    ],
+    "correct": "b) Click-clack"
+  },
+  {
+    "q": "Reduplication often conveys:",
+    "options": [
+      "a) Opposite action",
+      "b) Formal/academic meaning",
+      "c) Expressive intensification or playfulness",
+      "d) Technical terminology"
+    ],
+    "correct": "c) Expressive intensification or playfulness"
+  },
+  {
+    "q": "Which is typical of the formal/academic register?",
+    "options": [
+      "a) Phone, info",
+      "b) Tick-tock",
+      "c) Super-duper",
+      "d) PhD, declassify"
+    ],
+    "correct": "d) PhD, declassify"
+  },
+  {
+    "q": "Clipped words are usually found in:",
+    "options": [
+      "a) Literary texts",
+      "b) Technical writing",
+      "c) Informal spoken English",
+      "d) Formal academic essays"
+    ],
+    "correct": "c) Informal spoken English"
+  },
+  {
+    "q": "Functional styles and registers help philology students to:",
+    "options": [
+      "a) Create new affixes",
+      "b) Understand morphological productivity only",
+      "c) Imitate onomatopoeic sounds",
+      "d) Evaluate lexical appropriateness and stylistic effect in context"
+    ],
+    "correct": "d) Evaluate lexical appropriateness and stylistic effect in context"
+  },
+  {
+    "q": "What is the primary characteristic of the English lexicon as described in the lecture?",
+    "options": [
+      "a) It is fixed and unchanging",
+      "b) It is flexible and adaptive",
+      "c) It avoids borrowings",
+      "d) It relies solely on core vocabulary"
+    ],
+    "correct": "b) It is flexible and adaptive"
+  },
+  {
+    "q": "Which of the following is an example of a neologism formed by blending?",
+    "options": [
+      "a) Smartphone",
+      "b) Micro-manage",
+      "c) Selfie",
+      "d) Brunch"
+    ],
+    "correct": "d) Brunch"
+  },
+  {
+    "q": "Conversion as a word-formation process in English can be exemplified by:",
+    "options": [
+      "a) To google (verb from noun)",
+      "b) Ballet",
+      "c) Cloud",
+      "d) Smartphone"
+    ],
+    "correct": "a) To google (verb from noun)"
+  },
+  {
+    "q": "Which of these is a borrowed word from German integrated into English?",
+    "options": [
+      "a) Sushi",
+      "b) Algebra",
+      "c) Kindergarten",
+      "d) Emoji"
+    ],
+    "correct": "c) Kindergarten"
+  },
+  {
+    "q": "Semantic shift is illustrated by which of the following examples?",
+    "options": [
+      "a) Hashtag",
+      "b) Selfie",
+      "c) Mouse (rodent → computer device)",
+      "d) Brunch"
+    ],
+    "correct": "c) Mouse (rodent → computer device)"
+  },
+  {
+    "q": "Which pair correctly reflects a British vs. American English regional variant?",
+    "options": [
+      "a) Arvo – afternoon",
+      "b) Flat – Apartment",
+      "c) Prepone – reschedule earlier",
+      "d) Toque – winter hat"
+    ],
+    "correct": "b) Flat – Apartment"
+  },
+  {
+    "q": "Australian English vocabulary example given in the lecture is:",
+    "options": [
+      "a) Toque",
+      "b) Prepone",
+      "c) Ute",
+      "d) Cousin-sister"
+    ],
+    "correct": "c) Ute"
+  },
+  {
+    "q": "Which of these is an example of a lexical neologism?",
+    "options": [
+      "a) Ghosting",
+      "b) Selfie",
+      "c) Mouse (semantic shift)",
+      "d) Cloud (semantic shift)"
+    ],
+    "correct": "b) Selfie"
+  },
+  {
+    "q": "Cultural influence on the English lexicon includes all EXCEPT:",
+    "options": [
+      "a) Influencer",
+      "b) Binge-watch",
+      "c) Blockchain",
+      "d) Cancel culture"
+    ],
+    "correct": "c) Blockchain"
+  },
+  {
+    "q": "Understanding regional variants is important because:",
+    "options": [
+      "a) It reduces the need for translation",
+      "b) It standardizes spelling globally",
+      "c) It ensures clarity and cultural appropriateness",
+      "d) It eliminates semantic shifts"
+    ],
+    "correct": "c) It ensures clarity and cultural appropriateness"
+  },
+  {
+    "q": "The synchronic approach in linguistic science is concerned with the vocabulary of a language as it exists at a given _____",
+    "options": [
+      "time",
+      "stage",
+      "place",
+      "origin"
+    ],
+    "correct": "time"
+  },
+  {
+    "q": "The relationship between the morphemic structure of a word and its meaning is termed morphological _____",
+    "options": [
+      "motivation",
+      "composition",
+      "derivation",
+      "segmantation"
+    ],
+    "correct": "motivation"
+  },
+  {
+    "q": "Statement: The synchronic state of a language system is independent of its historical development.",
+    "options": [
+      "False",
+      "True",
+      "True only for descriptive lexicology",
+      "True only for special lexicology"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Words identical in sound-form but different in meaning are traditionally termed _____",
+    "options": [
+      "homonym",
+      "synonym",
+      "antonym",
+      "hyponym"
+    ],
+    "correct": "homonym"
+  },
+  {
+    "q": "The smallest indivisible two-facet language units, possessing both sound-form and meaning, are generally referred to as _____.",
+    "options": [
+      "morpheme",
+      "phrases",
+      "words",
+      "phonemes"
+    ],
+    "correct": "morpheme"
+  },
+  {
+    "q": "Statement: Lexicology is essentially a sociolinguistic science because the word-stock immediately reacts to changes in social life.",
+    "options": [
+      "true",
+      "false",
+      "True only for phonetics",
+      "True only for grammar"
+    ],
+    "correct": "true"
+  },
+  {
+    "q": "The grammatical meaning of a word remains the same throughout its entire paradigm.",
+    "options": [
+      "False",
+      "True",
+      "True only for nouns",
+      "True only for synthetic forms"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Monosemantic words, which possess only one meaning, constitute the bulk of the English vocabulary.",
+    "options": [
+      "False",
+      "True",
+      "True only for common words",
+      "True only for function words"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Hyponymy is defined in linguistics as a semantic relationship of inclusion.",
+    "options": [
+      "True",
+      "False",
+      "True only for antonyms",
+      "True only for coordinate compounds"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Lexicology is defined literally as the \"science of the word.”",
+    "options": [
+      "True",
+      "False",
+      "True only for general lexicology",
+      "True only for Phonetics"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: The diachronic approach is concerned with the vocabulary as it exists at a given time.",
+    "options": [
+      "False",
+      "True",
+      "True only for descriptive lexicology",
+      "True only for grammar"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: The word is the largest unit on the morphologic plane and the smallest on the syntactic plane.",
+    "options": [
+      "True",
+      "False",
+      "True only forsentences",
+      "True only for phrases"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Lexical meaning remains the same throughout a word's entire paradigm.",
+    "options": [
+      "True",
+      "False",
+      "True only for verbs",
+      "True only for nouns"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: The referential approach to meaning seeks to find the interdependence between words and the things or concepts they denote.",
+    "options": [
+      "True",
+      "false",
+      "True only for functional approach",
+      "False for synchronic studies"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: In the \"basic triangle\" model, the sound-form of a word is inherently connected to its meaning.",
+    "options": [
+      "False",
+      "True",
+      "True only for uzbek",
+      "True only for synonyms"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Concept is a category of human cognition and is identical to word-meaning.",
+    "options": [
+      "False",
+      "True",
+      "True only for scientific terms",
+      "True only for monosemantic words"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Denotational meaning is the component of lexical meaning that makes communication possible.",
+    "options": [
+      "True",
+      "False",
+      "True only for slang",
+      "True only for archaisms"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: The emotive charge of a word depends entirely on the personal experience of the individual speaker.",
+    "options": [
+      "False",
+      "True",
+      "True only for neutral words",
+      "True only for adverbs"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Archaic words are a subgroup of the literary (bookish) layer of vocabulary.",
+    "options": [
+      "True",
+      "false",
+      "True only for dialects",
+      "False for modern english"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Morphemes are the smallest indivisible two-facet language units possessing both sound-form and meaning.",
+    "options": [
+      "True",
+      "False",
+      "True only for words",
+      "True only for root morphemes"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: All one-morpheme words are by definition non-motivated.",
+    "options": [
+      "True",
+      "False",
+      "True only for compound words",
+      "True only for nouns"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Onomatopoeic words like \"cuckoo\" and \"splash\" are considered completely motivated by all linguists.",
+    "options": [
+      "False",
+      "True",
+      "True only for Russian",
+      "True only for suffixes"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Semantic motivation implies a metaphoric extension of a word's central meaning.",
+    "options": [
+      "True",
+      "False",
+      "True only for slang",
+      "True only for polysemy"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Ellipsis is a purely linguistic cause for the change of meaning.",
+    "options": [
+      "True",
+      "False",
+      "True only for extra linguistic causes",
+      "True only for modern english"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Metonymy is a semantic process based on the similarity of meanings.",
+    "options": [
+      "False",
+      "True",
+      "True only for metaphor",
+      "True only for idioms"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Restriction of meaning results in a word being applied to a wider variety of referents.",
+    "options": [
+      "False",
+      "True",
+      "True only for generalisation",
+      "True only for extension of meaning"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Ameliorative development refers to the improvement of the connotational component of meaning.",
+    "options": [
+      "True",
+      "False",
+      "True only for pejorative development",
+      "True only for modern English"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Monosemantic words constitute the bulk of the English vocabulary.",
+    "options": [
+      "False",
+      "True",
+      "True only for scientific terms",
+      "True only for English"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Polysemy can arise from homonymy when two words become identical in sound-form.",
+    "options": [
+      "True",
+      "False",
+      "True only for synonyms",
+      "True only for  Russian"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Synchronically, the central meaning of a word is usually the one with the highest frequency in speech.",
+    "options": [
+      "True",
+      "False",
+      "True only for rare words",
+      "True only for polysemantic words"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Full homonyms are those that are identical in all their forms.",
+    "options": [
+      "True",
+      "False",
+      "True only for rare words",
+      "True only for partial homonyms"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Homographs are words identical in sound-form but different in spelling.",
+    "options": [
+      "False",
+      "True",
+      "True only for homophones",
+      "True only for perfect homonyms"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Convergent sound development is the most potent factor in the creation of homonyms",
+    "options": [
+      "True",
+      "False",
+      "True only for rare words",
+      "True only for divergency"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Lexical valency refers to the aptness of a word to appear in specific grammatical structures.",
+    "options": [
+      "False",
+      "True",
+      "True only for grammatical valency",
+      "True only for polysemantic words"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Departure from the established norm of lexical valency is often felt as a stylistic device.",
+    "options": [
+      "True",
+      "False",
+      "True only for cliches",
+      "False for slang"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Exocentric word-groups have one central member functionally equivalent to the whole group.",
+    "options": [
+      "False",
+      "True",
+      "True only for endocentric groups",
+      "False for slang"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Phraseological fusions are completely non-motivated word-groups.",
+    "options": [
+      "True",
+      "False",
+      "True only for phraseological collocations",
+      "False for modern English"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: The term \"idiom\" is universally accepted in Soviet linguistics to replace \"phraseological unit.\"",
+    "options": [
+      "False",
+      "True",
+      "True only for American linguistics",
+      "False for slang"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Stability of use means that set expressions are reproduced ready-made in speech.",
+    "options": [
+      "True",
+      "False",
+      "True only for cliches",
+      "False for free phrases"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Allomorphs are representations of the same morpheme that manifest phonetic alteration.",
+    "options": [
+      "True",
+      "False",
+      "True only for suffixes",
+      "False for root morphemes"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Unique morphemes are those that recur in many different linguistic environments.",
+    "options": [
+      "False",
+      "True",
+      "True only for prefixes",
+      "False for full morphemes"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Root-morphemes do not possess part-of-speech meaning",
+    "options": [
+      "True",
+      "False",
+      "True only for derivational affixes",
+      "True for all morphemes"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: A free morpheme is one that coincides with a word-form or stem.",
+    "options": [
+      "True",
+      "False",
+      "True only for Germanic roots",
+      "False for affixes"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Derivational bases built on word-groups are common in Modern English.",
+    "options": [
+      "True",
+      "False",
+      "True only for verbs",
+      "False for adjectives"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Suffixation in Modern English is mostly characteristic of verb formation",
+    "options": [
+      "False",
+      "True",
+      "True only for prefixation",
+      "False for conversation"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "Statement: Conversion is defined as the formation of a new word solely through changes in its paradigm.",
+    "options": [
+      "True",
+      "False",
+      "True only for affixation",
+      "False for English"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Oral borrowings are usually shorter and undergo more changes than written borrowings.",
+    "options": [
+      "True",
+      "False",
+      "True only for Uzbek",
+      "False for French"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Denominal verbs are verbs converted from nouns.",
+    "options": [
+      "True",
+      "False",
+      "True only for substantives",
+      "False for verbs"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "Statement: Compound words are formally and semantically dependent on their constituent bases.",
+    "options": [
+      "True",
+      "False",
+      "True only for fusions",
+      "False for English"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Lexicology** as a branch of linguistics has its own aims and methods, its basic task being a study and systematic description of vocabulary in respect to its origin, development and current use; literally, it is the **science of the** .…",
+    "options": [
+      "word",
+      "morpheme",
+      "sentence",
+      "sound"
+    ],
+    "correct": "word"
+  },
+  {
+    "q": "The **synchronic approach** in linguistic science is concerned with the vocabulary of a language as it exists at a **given** _____",
+    "options": [
+      "time",
+      "stage",
+      "place",
+      "origin"
+    ],
+    "correct": "time"
+  },
+  {
+    "q": "The relationship between the **morphemic structure** of a word and its **meaning** is termed morphological _____",
+    "options": [
+      "motivation",
+      "composition",
+      "derivation",
+      "segmantation"
+    ],
+    "correct": "motivation"
+  },
+  {
+    "q": "**Statement:** The **synchronic state** of a language system is independent of its **historical development**.",
+    "options": [
+      "False",
+      "True",
+      "True only for descriptive lexicology",
+      "True only for special lexicology"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Words** identical in **sound-form** but different in **meaning** are traditionally termed _____",
+    "options": [
+      "homonym",
+      "synonym",
+      "antonym",
+      "hyponym"
+    ],
+    "correct": "homonym"
+  },
+  {
+    "q": "The smallest **indivisible two-facet** language units, possessing both sound-form and meaning, are generally referred to as _____.",
+    "options": [
+      "morpheme",
+      "phrases",
+      "words",
+      "phonemes"
+    ],
+    "correct": "morpheme"
+  },
+  {
+    "q": "**Statement:** **Lexicology** is essentially a **sociolinguistic science** because the word-stock immediately reacts to changes in social life.",
+    "options": [
+      "true",
+      "false",
+      "True only for phonetics",
+      "True only for grammar"
+    ],
+    "correct": "true"
+  },
+  {
+    "q": "The **grammatical meaning** of a word remains the **same** throughout its entire **paradigm**.",
+    "options": [
+      "False",
+      "True",
+      "True only for nouns",
+      "True only for synthetic forms"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement:** **Monosemantic words**, which possess only one meaning, constitute the **bulk** of the English vocabulary.",
+    "options": [
+      "False",
+      "True",
+      "True only for common words",
+      "True only for function words"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement:** **Hyponymy** is defined in linguistics as a semantic **relationship of inclusion**.",
+    "options": [
+      "True",
+      "False",
+      "True only for antonyms",
+      "True only for coordinate compounds"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Lexicology is defined literally as the \"science of the word.”**",
+    "options": [
+      "True",
+      "False",
+      "True only for general lexicology",
+      "True only for Phonetics"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: The diachronic approach is concerned with the vocabulary as it exists at a given time.**",
+    "options": [
+      "False",
+      "True",
+      "True only for descriptive lexicology",
+      "True only for grammar"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: The word is the largest unit on the morphologic plane and the smallest on the syntactic plane.**",
+    "options": [
+      "True",
+      "False",
+      "True only forsentences",
+      "True only for phrases"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Lexical meaning remains the same throughout a word's entire paradigm.**",
+    "options": [
+      "True",
+      "False",
+      "True only for verbs",
+      "True only for nouns"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: The referential approach to meaning seeks to find the interdependence between words and the things or concepts they denote.**",
+    "options": [
+      "True",
+      "false",
+      "True only for functional approach",
+      "False for synchronic studies"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: In the \"basic triangle\" model, the sound-form of a word is inherently connected to its meaning.**",
+    "options": [
+      "False",
+      "True",
+      "True only for uzbek",
+      "True only for synonyms"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Concept is a category of human cognition and is identical to word-meaning.**",
+    "options": [
+      "False",
+      "True",
+      "True only for scientific terms",
+      "True only for monosemantic words"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Denotational meaning is the component of lexical meaning that makes communication possible.**",
+    "options": [
+      "True",
+      "False",
+      "True only for slang",
+      "True only for archaisms"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: The emotive charge of a word depends entirely on the personal experience of the individual speaker.**",
+    "options": [
+      "False",
+      "True",
+      "True only for neutral words",
+      "True only for adverbs"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Archaic words are a subgroup of the literary (bookish) layer of vocabulary.**",
+    "options": [
+      "True",
+      "false",
+      "True only for dialects",
+      "False for modern english"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Morphemes are the smallest indivisible two-facet language units possessing both sound-form and meaning.**",
+    "options": [
+      "True",
+      "False",
+      "True only for words",
+      "True only for root morphemes"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: All one-morpheme words are by definition non-motivated.**",
+    "options": [
+      "True",
+      "False",
+      "True only for compound words",
+      "True only for nouns"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Onomatopoeic words like \"cuckoo\" and \"splash\" are considered completely motivated by all linguists.**",
+    "options": [
+      "False",
+      "True",
+      "True only for Russian",
+      "True only for suffixes"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Semantic motivation implies a metaphoric extension of a word's central meaning.**",
+    "options": [
+      "True",
+      "False",
+      "True only for slang",
+      "True only for polysemy"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Ellipsis is a purely linguistic cause for the change of meaning.**",
+    "options": [
+      "True",
+      "False",
+      "True only for extra linguistic causes",
+      "True only for modern english"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Metonymy is a semantic process based on the similarity of meanings.**",
+    "options": [
+      "False",
+      "True",
+      "True only for metaphor",
+      "True only for idioms"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Restriction of meaning results in a word being applied to a wider variety of referents.**",
+    "options": [
+      "False",
+      "True",
+      "True only for generalisation",
+      "True only for extension of meaning"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Ameliorative development refers to the improvement of the connotational component of meaning.**",
+    "options": [
+      "True",
+      "False",
+      "True only for pejorative development",
+      "True only for modern English"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Monosemantic words constitute the bulk of the English vocabulary.**",
+    "options": [
+      "False",
+      "True",
+      "True only for scientific terms",
+      "True only for English"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Polysemy can arise from homonymy when two words become identical in sound-form.**",
+    "options": [
+      "True",
+      "False",
+      "True only for synonyms",
+      "True only for  Russian"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Synchronically, the central meaning of a word is usually the one with the highest frequency in speech.**",
+    "options": [
+      "True",
+      "False",
+      "True only for rare words",
+      "True only for polysemantic words"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Full homonyms are those that are identical in all their forms.**",
+    "options": [
+      "True",
+      "False",
+      "True only for rare words",
+      "True only for partial homonyms"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Homographs are words identical in sound-form but different in spelling.**",
+    "options": [
+      "False",
+      "True",
+      "True only for homophones",
+      "True only for perfect homonyms"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Convergent sound development is the most potent factor in the creation of homonyms**",
+    "options": [
+      "True",
+      "False",
+      "True only for rare words",
+      "True only for divergency"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Lexical valency refers to the aptness of a word to appear in specific grammatical structures.**",
+    "options": [
+      "False",
+      "True",
+      "True only for grammatical valency",
+      "True only for polysemantic words"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Departure from the established norm of lexical valency is often felt as a stylistic device.**",
+    "options": [
+      "True",
+      "False",
+      "True only for cliches",
+      "False for slang"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Exocentric word-groups have one central member functionally equivalent to the whole group.**",
+    "options": [
+      "False",
+      "True",
+      "True only for endocentric groups",
+      "False for slang"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Phraseological fusions are completely non-motivated word-groups.**",
+    "options": [
+      "True",
+      "False",
+      "True only for phraseological collocations",
+      "False for modern English"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: The term \"idiom\" is universally accepted in Soviet linguistics to replace \"phraseological unit.\"**",
+    "options": [
+      "False",
+      "True",
+      "True only for American linguistics",
+      "False for slang"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Stability of use means that set expressions are reproduced ready-made in speech.**",
+    "options": [
+      "True",
+      "False",
+      "True only for cliches",
+      "False for free phrases"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Allomorphs are representations of the same morpheme that manifest phonetic alteration.**",
+    "options": [
+      "True",
+      "False",
+      "True only for suffixes",
+      "False for root morphemes"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Unique morphemes are those that recur in many different linguistic environments.**",
+    "options": [
+      "False",
+      "True",
+      "True only for prefixes",
+      "False for full morphemes"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Root-morphemes do not possess part-of-speech meaning**",
+    "options": [
+      "True",
+      "False",
+      "True only for derivational affixes",
+      "True for all morphemes"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: A free morpheme is one that coincides with a word-form or stem.**",
+    "options": [
+      "True",
+      "False",
+      "True only for Germanic roots",
+      "False for affixes"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Derivational bases built on word-groups are common in Modern English.**",
+    "options": [
+      "True",
+      "False",
+      "True only for verbs",
+      "False for adjectives"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Suffixation in Modern English is mostly characteristic of verb ****formation**",
+    "options": [
+      "False",
+      "True",
+      "True only for prefixation",
+      "False for conversation"
+    ],
+    "correct": "False"
+  },
+  {
+    "q": "**Statement: Conversion is defined as the formation of a new word solely through changes in its paradigm.**",
+    "options": [
+      "True",
+      "False",
+      "True only for affixation",
+      "False for English"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Oral borrowings are usually shorter and undergo more changes than written borrowings.**",
+    "options": [
+      "True",
+      "False",
+      "True only for Uzbek",
+      "False for French"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Denominal verbs are verbs converted from nouns.**",
+    "options": [
+      "True",
+      "False",
+      "True only for substantives",
+      "False for verbs"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "**Statement: Compound words are formally and semantically dependent on their constituent bases.**",
+    "options": [
+      "True",
+      "False",
+      "True only for fusions",
+      "False for English"
+    ],
+    "correct": "True"
+  },
+  {
+    "q": "The term _____ is conventionally used to denote words of Anglo-Saxon origin brought to the British Isles in the 5th century.",
+    "options": [
+      "native",
+      "borrowing",
+      "hybrid",
+      "doublet"
+    ],
+    "correct": "native"
+  },
+  {
+    "q": "_____ are words and expressions formed from material available in the language after foreign patterns, such as \"mother tongue\".",
+    "options": [
+      "Translation loans",
+      "Acronyms",
+      "Semantic borrowings",
+      "Root-words"
+    ],
+    "correct": "Translation loans"
+  },
+  {
+    "q": "The immediate _____ of borrowing refers to the language from which a word was taken into English.",
+    "options": [
+      "source",
+      "origin",
+      "stem",
+      "etymon"
+    ],
+    "correct": "source"
+  },
+  {
+    "q": "Most words of native origin belong to important semantic groups and possess a wide range of lexical and grammatical _____.",
+    "options": [
+      "valency",
+      "morphology",
+      "phonology",
+      "shortening"
+    ],
+    "correct": "valency"
+  },
+  {
+    "q": "The process of _____ includes changes in sound-form, morphological structure, and grammar to fit the norms of the adopting language.",
+    "options": [
+      "assimilation",
+      "derivation",
+      "composition",
+      "lexicalisation"
+    ],
+    "correct": "assimilation"
+  },
+  {
+    "q": "_____ assimilation involves a borrowed word losing its foreign categories and acquiring English ones, such as the plural in \"-s\".",
+    "options": [
+      "Grammatical",
+      "Phonetic",
+      "Lexical",
+      "Semantic"
+    ],
+    "correct": "Grammatical"
+  },
+  {
+    "q": "The loss of morphological seams in borrowings, making them appear as indivisible simple words, is termed _____.",
+    "options": [
+      "simplification",
+      "conversion",
+      "blending",
+      "acrronymy"
+    ],
+    "correct": "simplification"
+  },
+  {
+    "q": "_____ often changes the form of a word because speakers mistakenly associate it with a familiar but unrelated native word.",
+    "options": [
+      "Folk etymology",
+      "Componental analysis",
+      "Contrastive analysis",
+      "Semantic extension"
+    ],
+    "correct": "Folk etymology"
+  },
+  {
+    "q": "Cases where a foreign stem is combined with a native affix, such as in \"colourless,\" result in _____ words.",
+    "options": [
+      "hybrid",
+      "archaic",
+      "polysemantic",
+      "monomorphic"
+    ],
+    "correct": "hybrid"
+  },
+  {
+    "q": "While the word \"standard\" originated from Old French, the English associated its first part with the verb _____.",
+    "options": [
+      "stand",
+      "start",
+      "stay",
+      "star"
+    ],
+    "correct": "stand"
+  },
+  {
+    "q": "In _____ words, such as nouns and verbs, the lexical meaning is predominant over the grammatical meaning.",
+    "options": [
+      "notional",
+      "form",
+      "auxiliary",
+      "function"
+    ],
+    "correct": "notional"
+  },
+  {
+    "q": "The first ten words in order of frequency in English are all _____.",
+    "options": [
+      "form words",
+      "nouns",
+      "notional words",
+      "adjectives"
+    ],
+    "correct": "form words"
+  },
+  {
+    "q": "Frequency value is usually _____ to the number of morphemes a word consists of.",
+    "options": [
+      "inversely proportional",
+      "directly proportional",
+      "not related",
+      "identical"
+    ],
+    "correct": "inversely proportional"
+  },
+  {
+    "q": "Stylistically _____ vocabulary units tend to be polysemantic and have a higher frequency value.",
+    "options": [
+      "neutral",
+      "bookish",
+      "slang",
+      "technical"
+    ],
+    "correct": "neutral"
+  },
+  {
+    "q": "_____ words, like \"teach-in\" or \"sputnikist,\" are coined on the spur of the moment for specific occasions.",
+    "options": [
+      "occasional",
+      "compound",
+      "derived",
+      "simple"
+    ],
+    "correct": "occasional"
+  },
+  {
+    "q": "_____ is a re-interpretation of derivational structure where a \"simpler\" verb is formed by removing a suffix-like sound from a noun.",
+    "options": [
+      "back derivation",
+      "conversion",
+      "substantivisation",
+      "clipping"
+    ],
+    "correct": "back derivation"
+  },
+  {
+    "q": "_____ consists in dropping the final nominal member of an attributive word-group, like \"the finals\" from \"final examinations\".",
+    "options": [
+      "substantivisation",
+      "blending",
+      "composition",
+      "clipping"
+    ],
+    "correct": "substantivisation"
+  },
+  {
+    "q": "_____ are regular vocabulary units spoken as words, such as \"NATO\" or \"radar\".",
+    "options": [
+      "Acronyms",
+      "Letter abbreviations",
+      "Blends",
+      "Clippings"
+    ],
+    "correct": "Acronyms"
+  },
+  {
+    "q": "_____ are created by merging irregular fragments of several words, which are called \"splinters\".",
+    "options": [
+      "blendings",
+      "acronyms",
+      "derivatives",
+      "compounds"
+    ],
+    "correct": "blendings"
+  },
+  {
+    "q": "_____ refers to the creation of new words by shortening a word without changing its part-of-speech membership.",
+    "options": [
+      "clipping",
+      "conversion",
+      "composition",
+      "Back-formation"
+    ],
+    "correct": "clipping"
+  },
+  {
+    "q": "Regional varieties of a standard literary language characterized by their own literary norms are called _____.",
+    "options": [
+      "variants",
+      "dialects",
+      "jargons",
+      "slangs"
+    ],
+    "correct": "variants"
+  },
+  {
+    "q": "Varieties of a language used for oral communication in small localities are defined as _____.",
+    "options": [
+      "local dialects",
+      "variants",
+      "standards",
+      "slangs"
+    ],
+    "correct": "local dialects"
+  },
+  {
+    "q": "British, American, and _____ are the three main variants of the English national language.",
+    "options": [
+      "Australian",
+      "Canadian",
+      "Indian",
+      "African"
+    ],
+    "correct": "Australian"
+  },
+  {
+    "q": "Lexical units specific to present-day usage in one variant and not found in others are termed _____.",
+    "options": [
+      "locally-marked",
+      "General English",
+      "international",
+      "archaic"
+    ],
+    "correct": "locally-marked"
+  },
+  {
+    "q": "_____ Americanisms are words typical of the US variant in only some of their meanings.",
+    "options": [
+      "partial",
+      "full",
+      "total",
+      "synchronic"
+    ],
+    "correct": "partial"
+  },
+  {
+    "q": "Words like \"fortnight\" and \"pillar-box\" are considered full _____.",
+    "options": [
+      "Briticisms",
+      "Americanism",
+      "Australianisms",
+      "Canadianisms"
+    ],
+    "correct": "Briticisms"
+  },
+  {
+    "q": "New names for fauna in America, like \"_____\" and \"catfish,\" were formed from familiar English elements.",
+    "options": [
+      "mockingbird",
+      "kangaroo",
+      "dingo",
+      "koala"
+    ],
+    "correct": "mockingbird"
+  },
+  {
+    "q": "British local dialects are traceable to _____ dialects and are classified into six divisions.",
+    "options": [
+      "Old English",
+      "Middle English",
+      "French",
+      "Scandinavian"
+    ],
+    "correct": "Old English"
+  },
+  {
+    "q": "_____ variants of the national language are gradually replacing old local dialects in Britain.",
+    "options": [
+      "regional",
+      "foreign",
+      "social",
+      "archaic"
+    ],
+    "correct": "regional"
+  },
+  {
+    "q": "American English is characterized by relative _____ throughout the country compared to the dialects in Britain.",
+    "options": [
+      "uniformity",
+      "diversity",
+      "instability",
+      "complexity"
+    ],
+    "correct": "uniformity"
+  },
+  {
+    "q": "_____ dictionaries are \"thing-books\" that give information about the extra-linguistic world.",
+    "options": [
+      "Encyclopaedic",
+      "Linguistic",
+      "Explanatory",
+      "Specialised"
+    ],
+    "correct": "Encyclopaedic"
+  },
+  {
+    "q": "Linguistic dictionaries are \"_____\" that deal with lexical units and their properties.",
+    "options": [
+      "word-books",
+      "thing-books",
+      "picture-books",
+      "hand-books"
+    ],
+    "correct": "word-books"
+  },
+  {
+    "q": "_____ dictionaries provide information on all aspects of lexical units, including pronunciation, meaning, and etymology.",
+    "options": [
+      "Explanatory",
+      "Translation",
+      "Frequency",
+      "Reverse"
+    ],
+    "correct": "Explanatory"
+  },
+  {
+    "q": "_____ dictionaries like the NED cover the history of English vocabulary from its earliest records.",
+    "options": [
+      "Diachronic",
+      "Synchronic",
+      "Explanatory",
+      "Pronouncing"
+    ],
+    "correct": "Diachronic"
+  },
+  {
+    "q": "Synchronic dictionaries regard the language as a _____ system and take no account of past development.",
+    "options": [
+      "stabilised",
+      "developing",
+      "historical",
+      "diachronic"
+    ],
+    "correct": "stabilised"
+  },
+  {
+    "q": "_____ dictionaries, like Roget’s Thesaurus, group words by the concepts they express.",
+    "options": [
+      "Ideographic",
+      "Etymological",
+      "Reverse",
+      "Specialised"
+    ],
+    "correct": "Ideographic"
+  },
+  {
+    "q": "A _____ dictionary arranges entries in alphabetical order starting with the final letters of the words.",
+    "options": [
+      "reverse",
+      "frequency",
+      "pronouncing",
+      "synonym"
+    ],
+    "correct": "reverse"
+  },
+  {
+    "q": "_____ dictionaries are specifically designed for students for whom English is not a mother tongue.",
+    "options": [
+      "Learner’s",
+      "Unabridged",
+      "Encyclopaedic",
+      "Specialised"
+    ],
+    "correct": "Learner’s"
+  },
+  {
+    "q": "Selection of words for learner's dictionaries is often based on the _____ principle.",
+    "options": [
+      "frequency",
+      "etymological",
+      "alphabetical",
+      "historical"
+    ],
+    "correct": "frequency"
+  },
+  {
+    "q": "Dictionaries of _____ contain words that habitually combine with a given head-word",
+    "options": [
+      "collocations",
+      "synonyms",
+      "neologisms",
+      "slangs"
+    ],
+    "correct": "collocations"
+  },
+  {
+    "q": "_____ is the early and basic phase of all modern scientific investigation in linguistics.",
+    "options": [
+      "Observation",
+      "Classification",
+      "Generalisation",
+      "Verification"
+    ],
+    "correct": "Observation"
+  },
+  {
+    "q": "_____ analysis attempts to find out similarities and differences in both related and non-related languages.",
+    "options": [
+      "Contrastive",
+      "Satistical",
+      "Distributional",
+      "Transformational"
+    ],
+    "correct": "Contrastive"
+  },
+  {
+    "q": "The learning difficulty caused by differences between the mother tongue and the target language is called _____.",
+    "options": [
+      "interference",
+      "assimilation",
+      "conversion",
+      "translation"
+    ],
+    "correct": "interference"
   }
 ]
