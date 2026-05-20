@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("8863972910:AAFuZ1EpziBrBl8_7Wtg2_oHHdsRQQG4kVU")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 QUIZ_LENGTH = 20
 TIME_LIMIT = 15
 
@@ -17,16 +17,6 @@ user_sessions = {}
 leaderboard = {}
 timer_tasks = {}
 
-# ── YORDAMCHI: Markdown maxsus belgilarni tozalash ────────────────────────────
-def safe(text):
-    """Markdown belgilarini escaped qiladi"""
-    if not text:
-        return ""
-    for ch in ['_', '*', '[', ']', '(', ')', '~', '`', '>', '#', '+', '-', '=', '|', '{', '}', '.', '!']:
-        text = text.replace(ch, '\\' + ch)
-    return text
-
-# ── LEADERBOARD ────────────────────────────────────────────────────────────────
 def save_score(uid, name, score):
     if uid not in leaderboard:
         leaderboard[uid] = {"name": name, "best": 0, "games": 0, "total": 0}
@@ -46,7 +36,7 @@ def top10_text():
         avg = d["total"] / d["games"] if d["games"] else 0
         lines.append(
             f"{medals[i]} {d['name']}\n"
-            f"   🎯 Eng yaxshi: {d['best']}/{QUIZ_LENGTH} | "
+            f"   Eng yaxshi: {d['best']}/{QUIZ_LENGTH} | "
             f"O'yinlar: {d['games']} | O'rtacha: {avg:.1f}\n"
         )
     return "\n".join(lines)
@@ -62,10 +52,9 @@ def main_keyboard():
     return InlineKeyboardMarkup([
         [InlineKeyboardButton("▶️ O'yinni boshlash", callback_data="start_quiz")],
         [InlineKeyboardButton("🏆 Liderlar jadvali", callback_data="leaderboard")],
-        [InlineKeyboardButton("📊 Statistika",        callback_data="stats")],
+        [InlineKeyboardButton("📊 Statistika", callback_data="stats")],
     ])
 
-# ── TAYMER BEKOR QILISH ────────────────────────────────────────────────────────
 def cancel_timer(uid):
     if uid in timer_tasks:
         try:
@@ -74,7 +63,6 @@ def cancel_timer(uid):
             pass
         del timer_tasks[uid]
 
-# ── SAVOL KO'RSATISH ───────────────────────────────────────────────────────────
 async def show_question(q, uid):
     session = user_sessions[uid]
     idx = session["current"]
@@ -88,12 +76,10 @@ async def show_question(q, uid):
         for i, opt in enumerate(options)
     ]
 
-    # Savol matnini oddiy (Markdown'siz) ko'rsatamiz — xavfsiz
     text = (
-        f"⏱ {TIME_LIMIT} sek  |  "
-        f"Savol {idx+1}/{QUIZ_LENGTH}  |  "
-        f"Ball: {session['score']}\n\n"
-        f"❓ {qobj['q']}"
+        f"Savol {idx+1}/{QUIZ_LENGTH}  |  Ball: {session['score']}  |  Vaqt: {TIME_LIMIT} sek\n"
+        f"{'─'*30}\n\n"
+        f"{qobj['q']}"
     )
 
     try:
@@ -104,20 +90,17 @@ async def show_question(q, uid):
         session["message_id"] = msg.message_id
         session["chat_id"] = msg.chat.id
     except Exception as e:
-        logger.warning(f"show_question edit error: {e}")
+        logger.warning(f"show_question error: {e}")
         return
 
-    # Taymerni qayta boshlash
     cancel_timer(uid)
     app = session.get("app")
     if app:
         task = asyncio.create_task(time_is_up(uid, idx, app.bot))
         timer_tasks[uid] = task
 
-# ── TAYMER TUGADI ──────────────────────────────────────────────────────────────
 async def time_is_up(uid, idx, bot):
     await asyncio.sleep(TIME_LIMIT)
-
     if uid not in user_sessions:
         return
     session = user_sessions[uid]
@@ -128,66 +111,65 @@ async def time_is_up(uid, idx, bot):
     correct = qobj["correct"]
     session["current"] += 1
 
-    feedback = f"⏰ Vaqt tugadi!\n\nTo'g'ri javob: ✅ {correct}"
+    text = (
+        f"Savol {idx+1}/{QUIZ_LENGTH}  |  Ball: {session['score']}\n"
+        f"{'─'*30}\n\n"
+        f"⏰ Vaqt tugadi!\n\nTo'g'ri javob: {correct}"
+    )
 
     if session["current"] < QUIZ_LENGTH:
         try:
             await bot.edit_message_text(
                 chat_id=session["chat_id"],
                 message_id=session["message_id"],
-                text=f"Savol {idx+1}/{QUIZ_LENGTH}  |  Ball: {session['score']}\n\n{feedback}",
+                text=text,
                 reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton("➡️ Keyingi savol", callback_data=f"next|{session['current']}")
                 ]])
             )
         except Exception as e:
-            logger.warning(f"time_is_up edit error: {e}")
+            logger.warning(f"time_is_up error: {e}")
     else:
-        await finish_auto(uid, bot, session)
+        score = session["score"]
+        pct = score / QUIZ_LENGTH * 100
+        grade = get_grade(pct)
+        name = session.get("name", "Foydalanuvchi")
+        save_score(uid, name, score)
+        if uid in user_sessions:
+            del user_sessions[uid]
+        try:
+            await bot.edit_message_text(
+                chat_id=session["chat_id"],
+                message_id=session["message_id"],
+                text=(
+                    f"🎉 O'yin tugadi!\n\n"
+                    f"👤 {name}\n"
+                    f"🎯 Natija: {score}/{QUIZ_LENGTH} ({pct:.0f}%)\n"
+                    f"{grade}\n\n"
+                    f"Eng yaxshi natijangiz: {leaderboard[uid]['best']}/{QUIZ_LENGTH}"
+                ),
+                reply_markup=InlineKeyboardMarkup([
+                    [InlineKeyboardButton("🔄 Yana o'ynash", callback_data="start_quiz")],
+                    [InlineKeyboardButton("🏆 Liderlar", callback_data="leaderboard")],
+                    [InlineKeyboardButton("🏠 Menyu", callback_data="menu")],
+                ])
+            )
+        except Exception as e:
+            logger.warning(f"time_is_up finish error: {e}")
 
-async def finish_auto(uid, bot, session):
-    score = session["score"]
-    pct = score / QUIZ_LENGTH * 100
-    grade = get_grade(pct)
-    name = session.get("name", "Foydalanuvchi")
-    save_score(uid, name, score)
-    if uid in user_sessions:
-        del user_sessions[uid]
-    try:
-        await bot.edit_message_text(
-            chat_id=session["chat_id"],
-            message_id=session["message_id"],
-            text=(
-                f"🎉 O'yin tugadi!\n\n"
-                f"👤 {name}\n"
-                f"🎯 Natija: {score}/{QUIZ_LENGTH} ({pct:.0f}%)\n"
-                f"{grade}\n\n"
-                f"🏆 Eng yaxshi natijangiz: {leaderboard[uid]['best']}/{QUIZ_LENGTH}"
-            ),
-            reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("🔄 Yana o'ynash", callback_data="start_quiz")],
-                [InlineKeyboardButton("🏆 Liderlar",     callback_data="leaderboard")],
-                [InlineKeyboardButton("🏠 Menyu",        callback_data="menu")],
-            ])
-        )
-    except Exception as e:
-        logger.warning(f"finish_auto error: {e}")
-
-# ── /start ─────────────────────────────────────────────────────────────────────
 async def start(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     name = update.effective_user.first_name
     await update.message.reply_text(
         f"👋 Salom, {name}!\n\n"
         f"📚 Lexicology Quiz\n\n"
-        f"📌 {len(ALL_QUESTIONS)} ta savol mavjud\n"
-        f"🎯 Har o'yinda {QUIZ_LENGTH} ta tasodifiy savol\n"
-        f"⏱ Har bir savolga {TIME_LIMIT} sekund vaqt\n"
-        f"🔀 Javob variantlari har safar aralashtirilib beriladi\n\n"
-        f"Boshlaylik! 👇",
+        f"📌 Jami savollar: {len(ALL_QUESTIONS)} ta\n"
+        f"🎯 Har o'yinda: {QUIZ_LENGTH} ta tasodifiy savol\n"
+        f"⏱ Har savolga: {TIME_LIMIT} sekund\n"
+        f"🔀 Javoblar har safar aralashtirilib beriladi\n\n"
+        f"Boshlaylik!",
         reply_markup=main_keyboard()
     )
 
-# ── TUGMALAR ───────────────────────────────────────────────────────────────────
 async def button(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
     q = update.callback_query
     await q.answer()
@@ -237,12 +219,12 @@ async def button(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
                 f"🎯 Jami to'g'ri: {d['total']}"
             )
         else:
-            text = "📊 Siz hali o'ynamagansiz! Boshlang 🎮"
+            text = "Siz hali o'ynamagansiz! Boshlang!"
         await q.edit_message_text(
             text,
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("▶️ O'ynash", callback_data="start_quiz")],
-                [InlineKeyboardButton("🔙 Ortga",   callback_data="menu")],
+                [InlineKeyboardButton("🔙 Ortga", callback_data="menu")],
             ])
         )
 
@@ -263,18 +245,17 @@ async def button(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
             return
 
         cancel_timer(uid)
-
         qobj = session["questions"][idx]
         correct = qobj["correct"]
 
         if chosen.strip() == correct.strip():
             session["score"] += 1
-            feedback = f"✅ To'g'ri!\n\n{correct}"
+            feedback = f"✅ To'g'ri!\n\nJavob: {correct}"
         else:
             feedback = (
                 f"❌ Noto'g'ri!\n\n"
                 f"Sizning javobingiz: {chosen}\n"
-                f"To'g'ri javob: ✅ {correct}"
+                f"To'g'ri javob: {correct}"
             )
 
         session["current"] += 1
@@ -282,59 +263,51 @@ async def button(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         if session["current"] < QUIZ_LENGTH:
             try:
                 await q.edit_message_text(
-                    f"Savol {idx+1}/{QUIZ_LENGTH}  |  Ball: {session['score']}\n\n{feedback}",
+                    f"Savol {idx+1}/{QUIZ_LENGTH}  |  Ball: {session['score']}\n"
+                    f"{'─'*30}\n\n"
+                    f"{feedback}",
                     reply_markup=InlineKeyboardMarkup([[
                         InlineKeyboardButton("➡️ Keyingi savol", callback_data=f"next|{session['current']}")
                     ]])
                 )
             except Exception as e:
-                logger.warning(f"ans edit error: {e}")
+                logger.warning(f"ans error: {e}")
         else:
-            await finish(q, uid)
+            cancel_timer(uid)
+            session_copy = user_sessions.pop(uid, None)
+            if not session_copy:
+                return
+            score = session_copy["score"]
+            pct = score / QUIZ_LENGTH * 100
+            grade = get_grade(pct)
+            name = q.from_user.full_name
+            save_score(uid, name, score)
+            try:
+                await q.edit_message_text(
+                    f"🎉 O'yin tugadi!\n\n"
+                    f"👤 {name}\n"
+                    f"🎯 Natija: {score}/{QUIZ_LENGTH} ({pct:.0f}%)\n"
+                    f"{grade}\n\n"
+                    f"Eng yaxshi natijangiz: {leaderboard[uid]['best']}/{QUIZ_LENGTH}",
+                    reply_markup=InlineKeyboardMarkup([
+                        [InlineKeyboardButton("🔄 Yana o'ynash", callback_data="start_quiz")],
+                        [InlineKeyboardButton("🏆 Liderlar", callback_data="leaderboard")],
+                        [InlineKeyboardButton("🏠 Menyu", callback_data="menu")],
+                    ])
+                )
+            except Exception as e:
+                logger.warning(f"finish error: {e}")
 
     elif data.startswith("next|"):
-        parts = data.split("|")
-        idx = int(parts[1])
-
+        idx = int(data.split("|")[1])
         if uid not in user_sessions:
             await q.answer("O'yin topilmadi. /start bosing.", show_alert=True)
             return
-
         session = user_sessions[uid]
         if session["current"] != idx:
             return
-
         await show_question(q, uid)
 
-# ── O'YIN TUGADI ───────────────────────────────────────────────────────────────
-async def finish(q, uid):
-    cancel_timer(uid)
-    session = user_sessions.pop(uid, None)
-    if not session:
-        return
-    score = session["score"]
-    pct = score / QUIZ_LENGTH * 100
-    grade = get_grade(pct)
-    name = q.from_user.full_name
-    save_score(uid, name, score)
-
-    try:
-        await q.edit_message_text(
-            f"🎉 O'yin tugadi!\n\n"
-            f"👤 {name}\n"
-            f"🎯 Natija: {score}/{QUIZ_LENGTH} ({pct:.0f}%)\n"
-            f"{grade}\n\n"
-            f"🏆 Eng yaxshi natijangiz: {leaderboard[uid]['best']}/{QUIZ_LENGTH}",
-            reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("🔄 Yana o'ynash", callback_data="start_quiz")],
-                [InlineKeyboardButton("🏆 Liderlar",     callback_data="leaderboard")],
-                [InlineKeyboardButton("🏠 Menyu",        callback_data="menu")],
-            ])
-        )
-    except Exception as e:
-        logger.warning(f"finish error: {e}")
-
-# ── MAIN ───────────────────────────────────────────────────────────────────────
 def main():
     app = Application.builder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
